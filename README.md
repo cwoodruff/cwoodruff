@@ -1,6 +1,5 @@
 ### Hi there 👋
 
-[![Woody's GitHub stats](https://github-readme-stats.vercel.app/api?username=cwoodruff)](https://github.com/cwoodruff/github-readme-stats)
 ![Woody's GitHub stats](https://github-readme-stats.vercel.app/api?username=cwoodruff&show_icons=true&theme=gruvbox)
 
 <!--
