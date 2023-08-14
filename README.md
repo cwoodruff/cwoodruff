@@ -17,7 +17,7 @@ Aside from slapping the keyboard till something magical emerge, he writes a lot 
     - [Blog](https://woodruff.dev "Blog")
 
 - 😄 Pronouns: he/him
-- ⚡ Fun fact: I love bourbon 🥳
+- ⚡ Fun fact: I love bourbon :tumbler_glass:
 
 ## My Recent Content ✍️
 
