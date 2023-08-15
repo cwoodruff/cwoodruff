@@ -3,9 +3,6 @@
 <hr>
 Chris Woodruff, or as his friends call him Woody, is a software developer and architect of over 25 years. Woody loves software engineering, especially allowing applications and services to communicate across networks and through Web APIs. He has been a Microsoft MVP in SQL, Data and C# in the past, along with multiple years of being awarded the AWS Community Builder Award. Woody lives in Grand Rapids, Michigan, where he explores the many breweries in West Michigan and travels with his family. Woody is also a long-time bourbon fan and loves hunting for whiskey bottles.!
 
-
-Aside from slapping the keyboard till something magical emerge, he writes a lot of articles [Here](https://woodruff.dev "My Blog") where he shares his knowledge and sometimes contributes to open source.
-
 ---
 
 - 👯 I’m looking to collaborate on more open-source projects.
