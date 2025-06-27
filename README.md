@@ -9,7 +9,7 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 - 💬 Ask me about Web APIs, Network Programming, Leadership, .NET, Relational Databases, EF Core, Open Source etc.
 - 📫 How to reach me:
   - Social Media
-    - [Twitter](https://twitter.com/cwoodruff "My Twitter") | [LinkedIn](https://www.linkedin.com/in/chriswoodruff/ "My LinkedIn") | [Mastodon](https://mastodon.social/@cwoodruff "Mastodon") | [Polywork](https://www.polywork.com/cwoodruff) | [Bluesky](https://bsky.app/profile/chriswoodruff.bsky.social) | [LinkTree](https://linktr.ee/woodychris)
+    - [LinkedIn](https://www.linkedin.com/in/chriswoodruff/ "My LinkedIn") | [Mastodon](https://mastodon.social/@cwoodruff "Mastodon") | [Bluesky](https://bsky.app/profile/chriswoodruff.bsky.social) | [LinkTree](https://linktr.ee/woodychris)
   - Technical Writing Profiles: 
     - [Blog](https://woodruff.dev "Blog")
 
