@@ -34,7 +34,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           # Your config (edit these)
           WORDPRESS_FEED: "https://www.woodruff.dev/category/blog/feed/"
-          GITHUB_USER: "<your-username>"
+          GITHUB_USER: "cwoodruff"
           # Comma-separated list of repos to watch for releases, or leave blank to scan user’s repos
           RELEASE_REPOS: "owner1/repoA,owner2/repoB"
           # LinkedIn workaround: RSS feed or webhook JSON URL (see section 4)
