@@ -16,6 +16,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I love bourbon :tumbler_glass:
 
+<img src="https://algora.io/og/user/cwoodruff" />
+
 ## My Recent Content ✍️
 
 ### My Blog
@@ -60,8 +62,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
     *Category: Genetic Algorithms* • *September 15, 2025*  
     Even strong GA implementations can stall. This post tackles debugging strategies for common GA pitfalls.
 <!-- BLOG:END -->
-
-<img src="https://algora.io/og/user/cwoodruff" />
   
 ## &#x1f4c8; GitHub Stats
 
