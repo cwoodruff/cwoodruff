@@ -20,29 +20,48 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ### My Blog
 <!-- BLOG:START -->
-- [I asked ChatGPT how to overcome Imposter Syndrome.](https://woodruff.dev/i-asked-chatgpt-how-to-overcome-imposter-syndrome/)
-- [Looking at Writing Book Blurbs and How that can Help Conference Speakers](https://woodruff.dev/looking-at-writing-book-blurbs-and-how-that-can-help-conference-speakers/)
-- [Accelerating EF Core with Compiled Queries](https://woodruff.dev/accelerating-ef-core-with-compiled-queries/)
-- [The Journey of Self-Discovery: Exploring Your True Self at 50 as a Late Bloomer](https://woodruff.dev/the-journey-of-self-discovery-exploring-your-true-self-at-50-as-a-late-bloomer/)
+1. [Bridging the Gap Between Software Engineering and Business Goals](https://www.woodruff.dev/bridging-the-gap-between-software-engineering-and-business-goals/)  
+   *Category: Business of Software* • *October 6, 2025*  
+   Security cannot be patched later; it must be structural. This post highlights why architectural security decisions shape long-term system resilience.
+
+2. [Software Quality Assessment as an Ongoing Practice, Not a One-Time Event](https://www.woodruff.dev/software-quality-assessment-as-an-ongoing-practice-not-a-one-time-event/)  
+   *Category: Business of Software* • *October 1, 2025*  
+   Quality checks shouldn’t just be release-time rituals. Continuous assessments ensure systems stay reliable and aligned with evolving needs.
+
+3. [The Hidden ROI of Technical Due Diligence in Software Investments](https://www.woodruff.dev/the-hidden-roi-of-technical-due-diligence-in-software-investments/)  
+   *Category: Business of Software* • *September 29, 2025*  
+   Investors often focus on financials, overlooking software foundations. Technical due diligence reveals hidden risks and opportunities.
+
+4. [Bringing Simplicity-First to the Page: My Upcoming Book](https://www.woodruff.dev/bringing-simplicity-first-to-the-page-my-upcoming-book/)  
+   *Category: Simplicity-First* • *September 27, 2025*  
+   Announcing *Software Architecture Made Simple* — a new book compiling years of thought leadership on simplicity-driven software.
+
+5. [System Modernization Without the Burnout: Lessons from Distributed Systems](https://www.woodruff.dev/system-modernization-without-the-burnout-lessons-from-distributed-systems/)  
+   *Category: Business of Software* • *September 26, 2025*  
+   Avoid the dreaded “big-bang rewrite.” Learn strategies for sustainable modernization without overwhelming teams.
+
+6. [Why Fractional Architecture is the Future of Technology Strategy](https://www.woodruff.dev/why-fractional-architecture-is-the-future-of-technology-strategy/)  
+   *Category: Business of Software, Architecture* • *September 22, 2025*  
+   Fractional architects aren’t just for startups. They help companies of any size reduce chaos, scale smartly, and cut costs.
+
+7. [Day 35: Evolution Beyond Biology: Using Genetic Algorithms for Creative Art and Design](https://www.woodruff.dev/day-35-evolution-beyond-biology-using-genetic-algorithms-for-creative-art-and-design/)  
+   *Category: Genetic Algorithms* • *September 18, 2025*  
+   Explores how GAs can drive creativity — from generative art to music synthesis — extending beyond engineering into design.
+
+8. [Day 34: Genetic Algorithms vs. Other Optimization Techniques: A Developer’s Perspective](https://www.woodruff.dev/day-34-genetic-algorithms-vs-other-optimization-techniques-a-developers-perspective/)  
+   *Category: Genetic Algorithms* • *September 17, 2025*  
+   Compares GAs with Gradient Descent, Simulated Annealing, and Particle Swarm Optimization to show when each shines.
+
+9. [Day 33: Case Study: Using a Genetic Algorithm to Optimize Hyperparameters in a Neural Network](https://www.woodruff.dev/day-33-case-study-using-a-genetic-algorithm-to-optimize-hyperparameters-in-a-neural-network/)  
+   *Category: Genetic Algorithms* • *September 16, 2025*  
+   Walkthrough of applying GAs in C# to efficiently tune neural network hyperparameters.
+
+10. [Day 32: When Genetic Algorithms Go Wrong: Debugging Poor Performance and Premature Convergence](https://www.woodruff.dev/day-32-when-genetic-algorithms-go-wrong-debugging-poor-performance-and-premature-convergence/)  
+    *Category: Genetic Algorithms* • *September 15, 2025*  
+    Even strong GA implementations can stall. This post tackles debugging strategies for common GA pitfalls.
 <!-- BLOG:END -->
 
 <img src="https://algora.io/og/user/cwoodruff" />
-
-### The Breakpoint Show
-<!-- TBS:START -->
-- [Episode 001 – Blazor United & HTMX](https://www.breakpoint.show/podcast/episode-001-blazor-united-htmx/)
-- [Episode 002 – How to find OSS & the .NET Time Loop](https://www.breakpoint.show/podcast/episode-002-how-to-find-oss-the-net-time-loop/)
-<!-- TBS:END -->
-
-<!-- - [10+ Awesome Youtube Channels to Learn UI/UX](https://blog.idrisolubisi.com/10-awesome-youtube-channels-to-learn-uiux)
-- [How to Create Beautiful Gradients with JavaScript](https://blog.idrisolubisi.com/how-to-create-beautiful-gradients-with-javascript)
-- [Awesome GitHub Repositories to Learn CSS 👨‍💻](https://blog.idrisolubisi.com/awesome-github-repositories-to-learn-css)
-- [How to Build an Authentication API with JWT Token in Node. js](https://www.section.io/engineering-education/how-to-build-authentication-api-with-jwt-token-in-nodejs/)
-- [Get Paid to Write for These 45+ Websites](https://blog.idrisolubisi.com/get-paid-to-write-for-these-45-websites)
-- [How to Authenticate Users and Implement CORS in Node.js Apps 🔎](https://www.freecodecamp.org/news/how-to-authenticate-users-and-implement-cors-in-nodejs-applications/)
-- [15 Best Free Public Apis to Use in Your Next Project 🚀](https://blog.idrisolubisi.com/15-best-free-public-apis-to-use-in-your-next-project)
-- [How to Upload Audio and Video to Cloudinary in Nodejs 🚀](https://blog.idrisolubisi.com/how-to-upload-audio-and-video-to-cloudinary-in-nodejs)
-- [How to Build a Clock with JavaScript and SVG ⚡️](https://www.section.io/engineering-education/how-to-build-a-clock-with-javascript-and-svg/) -->
   
 ## &#x1f4c8; GitHub Stats
 
