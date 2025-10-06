@@ -72,12 +72,34 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Bridging the Gap Between Software Engineering and Business Goals](https://www.woodruff.dev/bridging-the-gap-between-software-engineering-and-business-goals/?utm_source=rss&utm_medium=rss&utm_campaign=bridging-the-gap-between-software-engineering-and-business-goals)  
+  *2025-10-06* — Security cannot be patched in later; it is structural Many organizations underestimate the importance of incorporating security from the very beginning, view...
+- [Software Quality Assessment as an Ongoing Practice, Not a One-Time Event](https://www.woodruff.dev/software-quality-assessment-as-an-ongoing-practice-not-a-one-time-event/?utm_source=rss&utm_medium=rss&utm_campaign=software-quality-assessment-as-an-ongoing-practice-not-a-one-time-event)  
+  *2025-10-01* — If you're looking to enhance your organization's systems through quality assessments, I would love to connect with you. Let's explore how I can contribute to...
+- [The Hidden ROI of Technical Due Diligence in Software Investments](https://www.woodruff.dev/the-hidden-roi-of-technical-due-diligence-in-software-investments/?utm_source=rss&utm_medium=rss&utm_campaign=the-hidden-roi-of-technical-due-diligence-in-software-investments)  
+  *2025-09-29* — If you're looking to enhance your organization's ROI through strategic software investments, I would love to connect with you. Let's explore how I can contri...
+- [Bringing Simplicity-First to the Page: My Upcoming Book](https://www.woodruff.dev/bringing-simplicity-first-to-the-page-my-upcoming-book/?utm_source=rss&utm_medium=rss&utm_campaign=bringing-simplicity-first-to-the-page-my-upcoming-book)  
+  *2025-09-27* — I am excited to share some big news. In the second half of 2026, my new book, titled Software Architecture Made Simple: A ‘Simplicity-First’ Approach to Soft...
+- [System Modernization Without the Burnout: Lessons from Distributed Systems](https://www.woodruff.dev/system-modernization-without-the-burnout-lessons-from-distributed-systems/?utm_source=rss&utm_medium=rss&utm_campaign=system-modernization-without-the-burnout-lessons-from-distributed-systems)  
+  *2025-09-26* — If you're looking for support in successfully migrating your legacy system, I would love to help your organization through this process. Let's connect and ex...
+- [Why Fractional Architecture is the Future of Technology Strategy](https://www.woodruff.dev/why-fractional-architecture-is-the-future-of-technology-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=why-fractional-architecture-is-the-future-of-technology-strategy)  
+  *2025-09-22* — If you’d like to chat about how I can help your organization as a Fractional Architect, I’d love to connect. You can reach me directly through my contact pag...
+- [Day 35: Evolution Beyond Biology: Using Genetic Algorithms for Creative Art and Design](https://www.woodruff.dev/day-35-evolution-beyond-biology-using-genetic-algorithms-for-creative-art-and-design/?utm_source=rss&utm_medium=rss&utm_campaign=day-35-evolution-beyond-biology-using-genetic-algorithms-for-creative-art-and-design)  
+  *2025-09-18* — Genetic Algorithms are often associated with engineering, scheduling, or optimization problems, but their potential extends into the domain of art and design...
+- [Day 34: Genetic Algorithms vs. Other Optimization Techniques: A Developer’s Perspective](https://www.woodruff.dev/day-34-genetic-algorithms-vs-other-optimization-techniques-a-developers-perspective/?utm_source=rss&utm_medium=rss&utm_campaign=day-34-genetic-algorithms-vs-other-optimization-techniques-a-developers-perspective)  
+  *2025-09-17* — Genetic Algorithms (GAs) are a powerful optimization strategy inspired by the principles of natural evolution. But they are far from the only technique in a ...
+- [Day 33: Case Study: Using a Genetic Algorithms to Optimize Hyperparameters in a Neural Network](https://www.woodruff.dev/day-33-case-study-using-a-genetic-algorithms-to-optimize-hyperparameters-in-a-neural-network/?utm_source=rss&utm_medium=rss&utm_campaign=day-33-case-study-using-a-genetic-algorithms-to-optimize-hyperparameters-in-a-neural-network)  
+  *2025-09-16* — Tuning hyperparameters for machine learning models like neural networks can be tedious and time-consuming. Traditional grid search or random search lacks eff...
+- [Day 32: When Genetic Algorithms Go Wrong: Debugging Poor Performance and Premature Convergence](https://www.woodruff.dev/day-32-when-genetic-algorithms-go-wrong-debugging-poor-performance-and-premature-convergence/?utm_source=rss&utm_medium=rss&utm_campaign=day-32-when-genetic-algorithms-go-wrong-debugging-poor-performance-and-premature-convergence)  
+  *2025-09-15* — Even well-written Genetic Algorithms can fail. You might see little improvement over generations, results clustering around poor solutions, or a complete sta...
 <!-- WP:END -->
 
 ## Fresh Releases
 <!-- REL:START -->
+_No recent releases_
 <!-- REL:END -->
 
 ## Latest LinkedIn Newsletters
 <!-- LI:START -->
+_Not configured_
 <!-- LI:END -->
