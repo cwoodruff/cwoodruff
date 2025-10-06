@@ -26,6 +26,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 - [The Journey of Self-Discovery: Exploring Your True Self at 50 as a Late Bloomer](https://woodruff.dev/the-journey-of-self-discovery-exploring-your-true-self-at-50-as-a-late-bloomer/)
 <!-- BLOG:END -->
 
+<img src="https://algora.io/og/user/cwoodruff" />
+
 ### The Breakpoint Show
 <!-- TBS:START -->
 - [Episode 001 – Blazor United & HTMX](https://www.breakpoint.show/podcast/episode-001-blazor-united-htmx/)
