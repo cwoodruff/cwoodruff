@@ -38,7 +38,7 @@ jobs:
           # Comma-separated list of repos to watch for releases, or leave blank to scan user’s repos
           RELEASE_REPOS: "owner1/repoA,owner2/repoB"
           # LinkedIn workaround: RSS feed or webhook JSON URL (see section 4)
-          LINKEDIN_RSS: ""
+          LINKEDIN_RSS: "https://rss.app/feeds/innzFN2UEgc4pUUR.xml"
           LINKEDIN_WEBHOOK_CACHE: ""
           ITEMS_PER_SECTION: "10"
         run: |
