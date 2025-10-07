@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Make Your GitHub Profile Update Itself (WordPress posts, GitHub releases, LinkedIn newsletters)](https://www.woodruff.dev/make-your-github-profile-update-itself-wordpress-posts-github-releases-linkedin-newsletters/?utm_source=rss&utm_medium=rss&utm_campaign=make-your-github-profile-update-itself-wordpress-posts-github-releases-linkedin-newsletters)  
+  *2025-10-07* — Want your GitHub profile to look alive without spending your weekends copy-pasting links? Let’s wire it to your actual work: blog posts from WordPress, newly...
 - [Bridging the Gap Between Software Engineering and Business Goals](https://www.woodruff.dev/bridging-the-gap-between-software-engineering-and-business-goals/?utm_source=rss&utm_medium=rss&utm_campaign=bridging-the-gap-between-software-engineering-and-business-goals)  
   *2025-10-06* — Security cannot be patched in later; it is structural Many organizations underestimate the importance of incorporating security from the very beginning, view...
 - [Software Quality Assessment as an Ongoing Practice, Not a One-Time Event](https://www.woodruff.dev/software-quality-assessment-as-an-ongoing-practice-not-a-one-time-event/?utm_source=rss&utm_medium=rss&utm_campaign=software-quality-assessment-as-an-ongoing-practice-not-a-one-time-event)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-09-17* — Genetic Algorithms (GAs) are a powerful optimization strategy inspired by the principles of natural evolution. But they are far from the only technique in a ...
 - [Day 33: Case Study: Using a Genetic Algorithms to Optimize Hyperparameters in a Neural Network](https://www.woodruff.dev/day-33-case-study-using-a-genetic-algorithms-to-optimize-hyperparameters-in-a-neural-network/?utm_source=rss&utm_medium=rss&utm_campaign=day-33-case-study-using-a-genetic-algorithms-to-optimize-hyperparameters-in-a-neural-network)  
   *2025-09-16* — Tuning hyperparameters for machine learning models like neural networks can be tedious and time-consuming. Traditional grid search or random search lacks eff...
-- [Day 32: When Genetic Algorithms Go Wrong: Debugging Poor Performance and Premature Convergence](https://www.woodruff.dev/day-32-when-genetic-algorithms-go-wrong-debugging-poor-performance-and-premature-convergence/?utm_source=rss&utm_medium=rss&utm_campaign=day-32-when-genetic-algorithms-go-wrong-debugging-poor-performance-and-premature-convergence)  
-  *2025-09-15* — Even well-written Genetic Algorithms can fail. You might see little improvement over generations, results clustering around poor solutions, or a complete sta...
 <!-- WP:END -->
 
 ## Fresh Releases
