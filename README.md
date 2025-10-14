@@ -51,14 +51,8 @@ _No recent releases_
 
 ## Latest LinkedIn Newsletters
 <!-- LI:START -->
-- [Microservices Were a Mistake: Why the Future is Simplicity](https://www.linkedin.com/pulse/microservices-were-mistake-why-future-simplicity-chris-woody-woodruff-v5dvc)  
-  *2025-10-07*
-- [Simplicity Meets Sustainability: Aligning the Simplicity-First Initiative with the Green Software Principle](https://www.linkedin.com/pulse/simplicity-meets-sustainability-aligning-initiative-green-woodruff-sxnlc)  
-  *2025-09-30*
-- [Kill the Bloat: The Controversial Clash Between SPAs, Server-Side Rendering, and the Power of Simplicity](https://www.linkedin.com/pulse/kill-bloat-controversial-clash-between-spas-rendering-woodruff-duhnc)  
-  *2025-09-23*
-- [The Simplicity Code: Intelligent Software Architecture for Scalability and Resilience](https://www.linkedin.com/pulse/simplicity-code-intelligent-software-architecture-woodruff-fpd0c)  
-  *2025-09-16*
+- [[Action required] Your RSS.app Trial has Expired.](https://rss.app)  
+  *2025-10-14*
 <!-- LI:END -->
   
 ## &#x1f4c8; GitHub Stats
