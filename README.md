@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Licensing Compliance in the Courtroom: Why It Matters More Than You Think](https://www.woodruff.dev/licensing-compliance-in-the-courtroom-why-it-matters-more-than-you-think/?utm_source=rss&utm_medium=rss&utm_campaign=licensing-compliance-in-the-courtroom-why-it-matters-more-than-you-think)  
+  *2025-10-17* — If you're looking to enhance your organization's systems through quality assessments, I would love to connect with you. Let's explore how I can contribute to...
 - [Secure Application Development Starts With Architecture](https://www.woodruff.dev/secure-application-development-starts-with-architecture/?utm_source=rss&utm_medium=rss&utm_campaign=secure-application-development-starts-with-architecture)  
   *2025-10-09* — If you're looking to enhance your organization's systems through quality assessments, I would love to connect with you. Let's explore how I can contribute to...
 - [Make Your GitHub Profile Update Itself (WordPress posts, GitHub releases, LinkedIn newsletters)](https://www.woodruff.dev/make-your-github-profile-update-itself-wordpress-posts-github-releases-linkedin-newsletters/?utm_source=rss&utm_medium=rss&utm_campaign=make-your-github-profile-update-itself-wordpress-posts-github-releases-linkedin-newsletters)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-09-22* — If you’d like to chat about how I can help your organization as a Fractional Architect, I’d love to connect. You can reach me directly through my contact pag...
 - [Day 35: Evolution Beyond Biology: Using Genetic Algorithms for Creative Art and Design](https://www.woodruff.dev/day-35-evolution-beyond-biology-using-genetic-algorithms-for-creative-art-and-design/?utm_source=rss&utm_medium=rss&utm_campaign=day-35-evolution-beyond-biology-using-genetic-algorithms-for-creative-art-and-design)  
   *2025-09-18* — Genetic Algorithms are often associated with engineering, scheduling, or optimization problems, but their potential extends into the domain of art and design...
-- [Day 34: Genetic Algorithms vs. Other Optimization Techniques: A Developer’s Perspective](https://www.woodruff.dev/day-34-genetic-algorithms-vs-other-optimization-techniques-a-developers-perspective/?utm_source=rss&utm_medium=rss&utm_campaign=day-34-genetic-algorithms-vs-other-optimization-techniques-a-developers-perspective)  
-  *2025-09-17* — Genetic Algorithms (GAs) are a powerful optimization strategy inspired by the principles of natural evolution. But they are far from the only technique in a ...
 <!-- WP:END -->
 
 ## Fresh Releases
