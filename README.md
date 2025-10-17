@@ -52,7 +52,7 @@ _No recent releases_
 ## Latest LinkedIn Newsletters
 <!-- LI:START -->
 - [[Action required] Your RSS.app Trial has Expired.](https://rss.app)  
-  *2025-10-16*
+  *2025-10-17*
 <!-- LI:END -->
   
 ## &#x1f4c8; GitHub Stats
