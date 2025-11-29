@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Enterprise Patterns for ASP.NET Core Minimal API: Transaction Script Pattern – The Shortcut That Quietly Reshapes Your System](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-transaction-script-pattern-the-shortcut-that-quietly-reshapes-your-system/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-transaction-script-pattern-the-shortcut-that-quietly-reshapes-your-system)  
+  *2025-11-29* — Picture this. Product wants a minor discount tweak: if an order total is below 100, no discount. You open an endpoint, add a conditional, save and push. Ten ...
 - [Stop Letting Your Controllers Talk to SQL: Layered Architecture in ASP.NET Core](https://www.woodruff.dev/stop-letting-your-controllers-talk-to-sql-layered-architecture-in-asp-net-core/?utm_source=rss&utm_medium=rss&utm_campaign=stop-letting-your-controllers-talk-to-sql-layered-architecture-in-asp-net-core)  
   *2025-11-28* — Walk into almost any long-lived enterprise codebase, and you will find the same pattern: At that point, adding a new feature feels like surgery without a map...
 - [Enterprise Patterns, Real Code: Implementing Fowler’s Ideas in C#](https://www.woodruff.dev/enterprise-patterns-real-code-implementing-fowlers-ideas-in-c/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-real-code-implementing-fowlers-ideas-in-c)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-09-29* — If you're looking to enhance your organization's ROI through strategic software investments, I would love to connect with you. Let's explore how I can contri...
 - [Bringing Simplicity-First to the Page: My Upcoming Book](https://www.woodruff.dev/bringing-simplicity-first-to-the-page-my-upcoming-book/?utm_source=rss&utm_medium=rss&utm_campaign=bringing-simplicity-first-to-the-page-my-upcoming-book)  
   *2025-09-27* — I am excited to share some big news. In the second half of 2026, my new book, titled Software Architecture Made Simple: A ‘Simplicity-First’ Approach to Soft...
-- [System Modernization Without the Burnout: Lessons from Distributed Systems](https://www.woodruff.dev/system-modernization-without-the-burnout-lessons-from-distributed-systems/?utm_source=rss&utm_medium=rss&utm_campaign=system-modernization-without-the-burnout-lessons-from-distributed-systems)  
-  *2025-09-26* — If you're looking for support in successfully migrating your legacy system, I would love to help your organization through this process. Let's connect and ex...
 <!-- WP:END -->
 
 ## Fresh Releases
