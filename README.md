@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Enterprise Patterns for ASP.NET Core Minimal API: Service Layer Pattern – Making HTTP a Client, Not the Boss](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-service-layer-pattern-making-http-a-client-not-the-boss/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-service-layer-pattern-making-http-a-client-not-the-boss)  
+  *2025-12-02* — Open a typical ASP.NET Core project, and you will often see the same shape: If you have ever tried to add a second client (a background worker, a message han...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Domain Model Pattern – When Your Core Rules Deserve Their Own Gravity](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-domain-model-pattern-when-your-core-rules-deserve-their-own-gravity/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-domain-model-pattern-when-your-core-rules-deserve-their-own-gravity)  
   *2025-12-01* — Look at a typical enterprise ASP.NET Core application, and you often see the same pattern: If you need to know how orders work, you do not open a single file...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Transaction Script Pattern – The Shortcut That Quietly Reshapes Your System](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-transaction-script-pattern-the-shortcut-that-quietly-reshapes-your-system/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-transaction-script-pattern-the-shortcut-that-quietly-reshapes-your-system)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-10-06* — If you're looking to enhance your organization's systems through quality assessments, I would love to connect with you. Let's explore how I can contribute to...
 - [Software Quality Assessment as an Ongoing Practice, Not a One-Time Event](https://www.woodruff.dev/software-quality-assessment-as-an-ongoing-practice-not-a-one-time-event/?utm_source=rss&utm_medium=rss&utm_campaign=software-quality-assessment-as-an-ongoing-practice-not-a-one-time-event)  
   *2025-10-01* — If you're looking to enhance your organization's systems through quality assessments, I would love to connect with you. Let's explore how I can contribute to...
-- [The Hidden ROI of Technical Due Diligence in Software Investments](https://www.woodruff.dev/the-hidden-roi-of-technical-due-diligence-in-software-investments/?utm_source=rss&utm_medium=rss&utm_campaign=the-hidden-roi-of-technical-due-diligence-in-software-investments)  
-  *2025-09-29* — If you're looking to enhance your organization's ROI through strategic software investments, I would love to connect with you. Let's explore how I can contri...
 <!-- WP:END -->
 
 ## Fresh Releases
