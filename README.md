@@ -22,8 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
-- [Debugging Entity Framework Core: 8 Real-World Query Anti‑Patterns (and How to Fix Them)](https://www.woodruff.dev/debugging-entity-framework-core-8-real-world-query-anti%e2%80%91patterns-and-how-to-fix-them/?utm_source=rss&utm_medium=rss&utm_campaign=debugging-entity-framework-core-8-real-world-query-anti%25e2%2580%2591patterns-and-how-to-fix-them)  
-  *2025-12-04* — I want to wish you a Merry Christmas, Happy Holidays, Happy Hanukkah, Happy Kwanzaa, and, finally, Debugging Entity Framework Core: 8 Real-World Query Anti‑P...
+- [Debugging Entity Framework Core: 8 Real-World Query Anti‑Patterns (and How to Fix Them)](https://www.woodruff.dev/debugging-entity-framework-core-8-real-world-query-anti-patterns-and-how-to-fix-them/?utm_source=rss&utm_medium=rss&utm_campaign=debugging-entity-framework-core-8-real-world-query-anti-patterns-and-how-to-fix-them)  
+  *2025-12-04* — This is my post for the 2025 C# Advent. Check out all the great posts! I want to wish you a Merry Christmas, Happy Holidays, Happy Hanukkah, Happy Kwanzaa, a...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Service Layer Pattern – Making HTTP a Client, Not the Boss](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-service-layer-pattern-making-http-a-client-not-the-boss/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-service-layer-pattern-making-http-a-client-not-the-boss)  
   *2025-12-02* — Open a typical ASP.NET Core project, and you will often see the same shape: If you have ever tried to add a second client (a background worker, a message han...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Domain Model Pattern – When Your Core Rules Deserve Their Own Gravity](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-domain-model-pattern-when-your-core-rules-deserve-their-own-gravity/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-domain-model-pattern-when-your-core-rules-deserve-their-own-gravity)  
