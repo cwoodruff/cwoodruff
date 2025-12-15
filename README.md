@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Enterprise Patterns for ASP.NET Core Minimal API: Active Record Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-active-record-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-active-record-pattern)  
+  *2025-12-15* — Sometimes, your domain is really just rows in a table. You have a Customers table with Id, Email, and CreditLimit.You load a row, tweak a field, and write it...
 - [Debugging Entity Framework Core: 8 Real-World Query Anti‑Patterns (and How to Fix Them)](https://www.woodruff.dev/debugging-entity-framework-core-8-real-world-query-anti-patterns-and-how-to-fix-them/?utm_source=rss&utm_medium=rss&utm_campaign=debugging-entity-framework-core-8-real-world-query-anti-patterns-and-how-to-fix-them)  
   *2025-12-04* — This is my post for the 2025 C# Advent. Check out all the great posts! I want to wish you a Merry Christmas, Happy Holidays, Happy Hanukkah, Happy Kwanzaa, a...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Service Layer Pattern – Making HTTP a Client, Not the Boss](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-service-layer-pattern-making-http-a-client-not-the-boss/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-service-layer-pattern-making-http-a-client-not-the-boss)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-10-09* — If you're looking to enhance your organization's systems through quality assessments, I would love to connect with you. Let's explore how I can contribute to...
 - [Make Your GitHub Profile Update Itself (WordPress posts, GitHub releases, LinkedIn newsletters)](https://www.woodruff.dev/make-your-github-profile-update-itself-wordpress-posts-github-releases-linkedin-newsletters/?utm_source=rss&utm_medium=rss&utm_campaign=make-your-github-profile-update-itself-wordpress-posts-github-releases-linkedin-newsletters)  
   *2025-10-07* — Want your GitHub profile to look alive without spending your weekends copy-pasting links? Let’s wire it to your actual work: blog posts from WordPress, newly...
-- [Bridging the Gap Between Software Engineering and Business Goals](https://www.woodruff.dev/bridging-the-gap-between-software-engineering-and-business-goals/?utm_source=rss&utm_medium=rss&utm_campaign=bridging-the-gap-between-software-engineering-and-business-goals)  
-  *2025-10-06* — If you're looking to enhance your organization's systems through quality assessments, I would love to connect with you. Let's explore how I can contribute to...
 <!-- WP:END -->
 
 ## Fresh Releases
