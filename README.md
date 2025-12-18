@@ -53,7 +53,7 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 ## Latest LinkedIn Newsletters
 <!-- LI:START -->
 - [[Action required] Your RSS.app Trial has Expired.](https://rss.app)  
-  *2025-12-17*
+  *2025-12-18*
 <!-- LI:END -->
   
 ## &#x1f4c8; GitHub Stats
