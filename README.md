@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Enterprise Patterns for ASP.NET Core Minimal API: Data Mapper Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-data-mapper-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-data-mapper-pattern)  
+  *2025-12-19* — If every interesting class in your system secretly knows a connection string, your domain is not a model. It is a thin layer of code on top of a data access ...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Active Record Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-active-record-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-active-record-pattern)  
   *2025-12-15* — Sometimes, your domain is really just rows in a table. You have a Customers table with Id, Email, and CreditLimit.You load a row, tweak a field, and write it...
 - [Debugging Entity Framework Core: 8 Real-World Query Anti‑Patterns (and How to Fix Them)](https://www.woodruff.dev/debugging-entity-framework-core-8-real-world-query-anti-patterns-and-how-to-fix-them/?utm_source=rss&utm_medium=rss&utm_campaign=debugging-entity-framework-core-8-real-world-query-anti-patterns-and-how-to-fix-them)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-10-17* — If you're looking to enhance your organization's systems through quality assessments, I would love to connect with you. Let's explore how I can contribute to...
 - [Secure Application Development Starts With Architecture](https://www.woodruff.dev/secure-application-development-starts-with-architecture/?utm_source=rss&utm_medium=rss&utm_campaign=secure-application-development-starts-with-architecture)  
   *2025-10-09* — If you're looking to enhance your organization's systems through quality assessments, I would love to connect with you. Let's explore how I can contribute to...
-- [Make Your GitHub Profile Update Itself (WordPress posts, GitHub releases, LinkedIn newsletters)](https://www.woodruff.dev/make-your-github-profile-update-itself-wordpress-posts-github-releases-linkedin-newsletters/?utm_source=rss&utm_medium=rss&utm_campaign=make-your-github-profile-update-itself-wordpress-posts-github-releases-linkedin-newsletters)  
-  *2025-10-07* — Want your GitHub profile to look alive without spending your weekends copy-pasting links? Let’s wire it to your actual work: blog posts from WordPress, newly...
 <!-- WP:END -->
 
 ## Fresh Releases
