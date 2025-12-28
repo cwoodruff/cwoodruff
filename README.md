@@ -46,8 +46,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Fresh Releases
 <!-- REL:START -->
-- [Release   v1.7.5](https://github.com/cwoodruff/morespeakers-com/releases/tag/v1.7.5)  
-  *2025-12-27* — cwoodruff/morespeakers-com
+- [Release   v1.7.6](https://github.com/cwoodruff/morespeakers-com/releases/tag/v1.7.6)  
+  *2025-12-28* — cwoodruff/morespeakers-com
 <!-- REL:END -->
 
 ## Latest LinkedIn Newsletters
