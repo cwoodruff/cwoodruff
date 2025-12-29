@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Enterprise Patterns for ASP.NET Core Minimal API: Repository Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-repository-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-repository-pattern)  
+  *2025-12-29* — If DbContext shows up in every corner of your codebase, you do not have a domain model. You have a thin layer of LINQ wrapped in HTTP. You see it when: A tin...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Data Mapper Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-data-mapper-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-data-mapper-pattern)  
   *2025-12-19* — If every interesting class in your system secretly knows a connection string, your domain is not a model. It is a thin layer of code on top of a data access ...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Active Record Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-active-record-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-active-record-pattern)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-11-28* — Most enterprise systems already use patterns from Martin Fowler’s Patterns of Enterprise Application Architecture. The twist is that many teams use them with...
 - [Licensing Compliance in the Courtroom: Why It Matters More Than You Think](https://www.woodruff.dev/licensing-compliance-in-the-courtroom-why-it-matters-more-than-you-think/?utm_source=rss&utm_medium=rss&utm_campaign=licensing-compliance-in-the-courtroom-why-it-matters-more-than-you-think)  
   *2025-10-17* — If you're looking to enhance your organization's systems through quality assessments, I would love to connect with you. Let's explore how I can contribute to...
-- [Secure Application Development Starts With Architecture](https://www.woodruff.dev/secure-application-development-starts-with-architecture/?utm_source=rss&utm_medium=rss&utm_campaign=secure-application-development-starts-with-architecture)  
-  *2025-10-09* — If you're looking to enhance your organization's systems through quality assessments, I would love to connect with you. Let's explore how I can contribute to...
 <!-- WP:END -->
 
 ## Fresh Releases
