@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Enterprise Patterns for ASP.NET Core Minimal API: Unit of Work Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-unit-of-work-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-unit-of-work-pattern)  
+  *2025-12-30* — If a single business operation calls SaveChangesAsync three times, you do not have a transaction. You have a sequence of partial commits that you hope never ...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Repository Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-repository-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-repository-pattern)  
   *2025-12-29* — If DbContext shows up in every corner of your codebase, you do not have a domain model. You have a thin layer of LINQ wrapped in HTTP. You see it when: A tin...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Data Mapper Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-data-mapper-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-data-mapper-pattern)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-11-28* — Walk into almost any long-lived enterprise codebase, and you will find the same pattern: At that point, adding a new feature feels like surgery without a map...
 - [Enterprise Patterns, Real Code: Implementing Fowler’s Ideas in C#](https://www.woodruff.dev/enterprise-patterns-real-code-implementing-fowlers-ideas-in-c/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-real-code-implementing-fowlers-ideas-in-c)  
   *2025-11-28* — Most enterprise systems already use patterns from Martin Fowler’s Patterns of Enterprise Application Architecture. The twist is that many teams use them with...
-- [Licensing Compliance in the Courtroom: Why It Matters More Than You Think](https://www.woodruff.dev/licensing-compliance-in-the-courtroom-why-it-matters-more-than-you-think/?utm_source=rss&utm_medium=rss&utm_campaign=licensing-compliance-in-the-courtroom-why-it-matters-more-than-you-think)  
-  *2025-10-17* — If you're looking to enhance your organization's systems through quality assessments, I would love to connect with you. Let's explore how I can contribute to...
 <!-- WP:END -->
 
 ## Fresh Releases
