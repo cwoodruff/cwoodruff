@@ -46,14 +46,14 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Fresh Releases
 <!-- REL:START -->
-- [Release   v1.9.0](https://github.com/cwoodruff/morespeakers-com/releases/tag/v1.9.0)  
-  *2025-12-29* — cwoodruff/morespeakers-com
+- [Release   v1.10.0](https://github.com/cwoodruff/morespeakers-com/releases/tag/v1.10.0)  
+  *2025-12-31* — cwoodruff/morespeakers-com
 <!-- REL:END -->
 
 ## Latest LinkedIn Newsletters
 <!-- LI:START -->
 - [[Action required] Your RSS.app Trial has Expired.](https://rss.app)  
-  *2025-12-31*
+  *2026-01-01*
 <!-- LI:END -->
   
 ## &#x1f4c8; GitHub Stats
