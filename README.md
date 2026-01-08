@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Enterprise Patterns for ASP.NET Core Minimal API: Lazy Load Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-lazy-load-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-lazy-load-pattern)  
+  *2026-01-08* — If a single endpoint pulls half your database just to render a small card on a mobile screen, your problem is not the database. Your problem is that you are ...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Identity Map Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-identity-map-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-identity-map-pattern)  
   *2026-01-06* — If one customer quietly turns into three different in-memory objects during a single request, your domain is already lying to you. You see it when: The Ident...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Unit of Work Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-unit-of-work-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-unit-of-work-pattern)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-12-01* — Look at a typical enterprise ASP.NET Core application, and you often see the same pattern: If you need to know how orders work, you do not open a single file...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Transaction Script Pattern – The Shortcut That Quietly Reshapes Your System](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-transaction-script-pattern-the-shortcut-that-quietly-reshapes-your-system/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-transaction-script-pattern-the-shortcut-that-quietly-reshapes-your-system)  
   *2025-11-29* — Picture this. Product wants a minor discount tweak: if an order total is below 100, no discount. You open an endpoint, add a conditional, save and push. Ten ...
-- [Stop Letting Your Controllers Talk to SQL: Layered Architecture in ASP.NET Core](https://www.woodruff.dev/stop-letting-your-controllers-talk-to-sql-layered-architecture-in-asp-net-core/?utm_source=rss&utm_medium=rss&utm_campaign=stop-letting-your-controllers-talk-to-sql-layered-architecture-in-asp-net-core)  
-  *2025-11-28* — Walk into almost any long-lived enterprise codebase, and you will find the same pattern: At that point, adding a new feature feels like surgery without a map...
 <!-- WP:END -->
 
 ## Fresh Releases
