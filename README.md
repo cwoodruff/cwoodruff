@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Enterprise Patterns for ASP.NET Core: Front Controller and MVC Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-front-controller-and-mvc-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-front-controller-and-mvc-pattern)  
+  *2026-01-11* — If every controller in your system does its own authentication, logging, and error handling, you do not have an architecture. You have a crowd of small frame...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Lazy Load Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-lazy-load-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-lazy-load-pattern)  
   *2026-01-08* — If a single endpoint pulls half your database just to render a small card on a mobile screen, your problem is not the database. Your problem is that you are ...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Identity Map Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-identity-map-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-identity-map-pattern)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-12-02* — Open a typical ASP.NET Core project, and you will often see the same shape: If you have ever tried to add a second client (a background worker, a message han...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Domain Model Pattern – When Your Core Rules Deserve Their Own Gravity](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-domain-model-pattern-when-your-core-rules-deserve-their-own-gravity/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-domain-model-pattern-when-your-core-rules-deserve-their-own-gravity)  
   *2025-12-01* — Look at a typical enterprise ASP.NET Core application, and you often see the same pattern: If you need to know how orders work, you do not open a single file...
-- [Enterprise Patterns for ASP.NET Core Minimal API: Transaction Script Pattern – The Shortcut That Quietly Reshapes Your System](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-transaction-script-pattern-the-shortcut-that-quietly-reshapes-your-system/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-transaction-script-pattern-the-shortcut-that-quietly-reshapes-your-system)  
-  *2025-11-29* — Picture this. Product wants a minor discount tweak: if an order total is below 100, no discount. You open an endpoint, add a conditional, save and push. Ten ...
 <!-- WP:END -->
 
 ## Fresh Releases
