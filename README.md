@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Stop Building SPAs for Every Screen: htmx + ASP.NET Core Razor Pages Workshop (Open)](https://www.woodruff.dev/stop-building-spas-for-every-screen-htmx-asp-net-core-razor-pages-workshop-open/?utm_source=rss&utm_medium=rss&utm_campaign=stop-building-spas-for-every-screen-htmx-asp-net-core-razor-pages-workshop-open)  
+  *2026-01-14* — If your default move for “modern UX” is a SPA, you are paying a tax you do not need. You pay for it in build pipelines, duplicated validation rules, fragile ...
 - [Enterprise Patterns for ASP.NET Core: Front Controller and MVC Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-front-controller-and-mvc-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-front-controller-and-mvc-pattern)  
   *2026-01-11* — If every controller in your system does its own authentication, logging, and error handling, you do not have an architecture. You have a crowd of small frame...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Lazy Load Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-lazy-load-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-lazy-load-pattern)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-12-04* — This is my post for the 2025 C# Advent. Check out all the great posts! I want to wish you a Merry Christmas, Happy Holidays, Happy Hanukkah, Happy Kwanzaa, a...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Service Layer Pattern – Making HTTP a Client, Not the Boss](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-service-layer-pattern-making-http-a-client-not-the-boss/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-service-layer-pattern-making-http-a-client-not-the-boss)  
   *2025-12-02* — Open a typical ASP.NET Core project, and you will often see the same shape: If you have ever tried to add a second client (a background worker, a message han...
-- [Enterprise Patterns for ASP.NET Core Minimal API: Domain Model Pattern – When Your Core Rules Deserve Their Own Gravity](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-domain-model-pattern-when-your-core-rules-deserve-their-own-gravity/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-domain-model-pattern-when-your-core-rules-deserve-their-own-gravity)  
-  *2025-12-01* — Look at a typical enterprise ASP.NET Core application, and you often see the same pattern: If you need to know how orders work, you do not open a single file...
 <!-- WP:END -->
 
 ## Fresh Releases
