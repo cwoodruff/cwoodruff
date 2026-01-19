@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Enterprise Patterns for ASP.NET Core Minimal API: Data Transfer Object Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-data-transfer-object-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-data-transfer-object-pattern)  
+  *2026-01-19* — Your domain model exists to protect your business rules.Your API exists to protect your clients. When you expose EF Core entities directly from your ASP.NET ...
 - [Stop Building SPAs for Every Screen: htmx + ASP.NET Core Razor Pages Workshop (Open)](https://www.woodruff.dev/stop-building-spas-for-every-screen-htmx-asp-net-core-razor-pages-workshop-open/?utm_source=rss&utm_medium=rss&utm_campaign=stop-building-spas-for-every-screen-htmx-asp-net-core-razor-pages-workshop-open)  
   *2026-01-14* — If your default move for “modern UX” is a SPA, you are paying a tax you do not need. You pay for it in build pipelines, duplicated validation rules, fragile ...
 - [Enterprise Patterns for ASP.NET Core: Front Controller and MVC Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-front-controller-and-mvc-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-front-controller-and-mvc-pattern)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-12-15* — Sometimes, your domain is really just rows in a table. You have a Customers table with Id, Email, and CreditLimit.You load a row, tweak a field, and write it...
 - [Debugging Entity Framework Core: 8 Real-World Query Anti‑Patterns (and How to Fix Them)](https://www.woodruff.dev/debugging-entity-framework-core-8-real-world-query-anti-patterns-and-how-to-fix-them/?utm_source=rss&utm_medium=rss&utm_campaign=debugging-entity-framework-core-8-real-world-query-anti-patterns-and-how-to-fix-them)  
   *2025-12-04* — This is my post for the 2025 C# Advent. Check out all the great posts! I want to wish you a Merry Christmas, Happy Holidays, Happy Hanukkah, Happy Kwanzaa, a...
-- [Enterprise Patterns for ASP.NET Core Minimal API: Service Layer Pattern – Making HTTP a Client, Not the Boss](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-service-layer-pattern-making-http-a-client-not-the-boss/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-service-layer-pattern-making-http-a-client-not-the-boss)  
-  *2025-12-02* — Open a typical ASP.NET Core project, and you will often see the same shape: If you have ever tried to add a second client (a background worker, a message han...
 <!-- WP:END -->
 
 ## Fresh Releases
