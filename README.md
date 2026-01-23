@@ -22,6 +22,8 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
 
 ## Latest on the Blog
 <!-- WP:START -->
+- [Systems Thinking Meets Simplicity-First: A Decision Framework for Software Architects](https://www.woodruff.dev/systems-thinking-meets-simplicity-first-a-decision-framework-for-software-architects/?utm_source=rss&utm_medium=rss&utm_campaign=systems-thinking-meets-simplicity-first-a-decision-framework-for-software-architects)  
+  *2026-01-23* — Modern technology operates in a paradox. Our tools have never been more powerful, yet our systems have never felt more fragile. Every framework, pipeline, an...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Data Transfer Object Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-data-transfer-object-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-data-transfer-object-pattern)  
   *2026-01-19* — Your domain model exists to protect your business rules.Your API exists to protect your clients. When you expose EF Core entities directly from your ASP.NET ...
 - [Stop Building SPAs for Every Screen: htmx + ASP.NET Core Razor Pages Workshop (Open)](https://www.woodruff.dev/stop-building-spas-for-every-screen-htmx-asp-net-core-razor-pages-workshop-open/?utm_source=rss&utm_medium=rss&utm_campaign=stop-building-spas-for-every-screen-htmx-asp-net-core-razor-pages-workshop-open)  
@@ -40,8 +42,6 @@ Chris Woodruff, or as his friends call him Woody, is a software developer and ar
   *2025-12-19* — If every interesting class in your system secretly knows a connection string, your domain is not a model. It is a thin layer of code on top of a data access ...
 - [Enterprise Patterns for ASP.NET Core Minimal API: Active Record Pattern](https://www.woodruff.dev/enterprise-patterns-for-asp-net-core-minimal-api-active-record-pattern/?utm_source=rss&utm_medium=rss&utm_campaign=enterprise-patterns-for-asp-net-core-minimal-api-active-record-pattern)  
   *2025-12-15* — Sometimes, your domain is really just rows in a table. You have a Customers table with Id, Email, and CreditLimit.You load a row, tweak a field, and write it...
-- [Debugging Entity Framework Core: 8 Real-World Query Anti‑Patterns (and How to Fix Them)](https://www.woodruff.dev/debugging-entity-framework-core-8-real-world-query-anti-patterns-and-how-to-fix-them/?utm_source=rss&utm_medium=rss&utm_campaign=debugging-entity-framework-core-8-real-world-query-anti-patterns-and-how-to-fix-them)  
-  *2025-12-04* — This is my post for the 2025 C# Advent. Check out all the great posts! I want to wish you a Merry Christmas, Happy Holidays, Happy Hanukkah, Happy Kwanzaa, a...
 <!-- WP:END -->
 
 ## Fresh Releases
