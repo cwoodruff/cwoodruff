@@ -35,11 +35,6 @@ jobs:
           # Your config (edit these)
           WORDPRESS_FEED: "https://www.woodruff.dev/category/blog/feed/"
           GITHUB_USER: "cwoodruff"
-          # Comma-separated list of repos to watch for releases, or leave blank to scan user’s repos
-          RELEASE_REPOS: "cwoodruff/morespeakers-com,cwoodruff/chinook-razor-htmx, cwoodruff/genetic-algorithms"
-          # LinkedIn workaround: RSS feed or webhook JSON URL (see section 4)
-          LINKEDIN_RSS: "https://rss.app/feeds/innzFN2UEgc4pUUR.xml"
-          LINKEDIN_WEBHOOK_CACHE: ""
           ITEMS_PER_SECTION: "10"
         run: |
           python scripts/update_readme.py
