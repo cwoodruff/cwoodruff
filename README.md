@@ -20,6 +20,8 @@ Today, Woody works as a fractional architect and leads the emerging practice of 
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I love bourbon :tumbler_glass:
 
+## &#x1f4c8; GitHub Stats
+
 ![Terminal Dashboard](https://github-terminal-stats-card.vercel.app/api/card?username=cwoodruff)
 
 <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cwoodruff&theme=transparent"/>
@@ -40,10 +42,3 @@ Today, Woody works as a fractional architect and leads the emerging practice of 
 - [[Action required] Your RSS.app Trial has Expired.](https://rss.app)  
   *2026-02-02*
 <!-- LI:END -->
-  
-## &#x1f4c8; GitHub Stats
-
-![Woody's GitHub stats](https://github-readme-stats.vercel.app/api?username=cwoodruff&show_icons=true&theme=gruvbox)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cwoodruff)](https://github.com/cwoodruff/github-readme-stats)
-
-![trophy](https://github-profile-trophy.vercel.app/?username=cwoodruff)
