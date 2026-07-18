@@ -42,8 +42,7 @@ Today, Woody works as a fractional architect and leads the emerging practice of 
   *2026-01-30* — cwoodruff/morespeakers-com
 <!-- REL:END -->
 
-## Latest LinkedIn Newsletters
+## Latest Substack Newsletters
 <!-- LI:START -->
-- [[Action required] Your RSS.app Trial has Expired.](https://rss.app)  
-  *2026-02-02*
+- []([https://rss.app](https://simplicityfirstphilosophy.substack.com/feed))  
 <!-- LI:END -->
