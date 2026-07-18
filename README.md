@@ -2,7 +2,7 @@
 
 ![Stats Bar Card](https://github-widgetbox.vercel.app/api/profile?username=cwoodruff&data=followers,repositories,stars,commits&theme=dark)
 
-<img height="180em" src = "https://github.com/Mayur-Pagote/README_Design_Kit/blob/main/public/Assets/linkedin-1.png" width="100">
+<img height="100em" width="100em" src = "https://github.com/Mayur-Pagote/README_Design_Kit/blob/main/public/Assets/linkedin-1.png" width="100">
 
 <hr>
 Chris “Woody” Woodruff has spent more than 25 years making complex software simpler. A Microsoft MVP in .NET and Web Development (first awarded 2008, re-awarded 2025) and a director on the .NET Foundation board, he has architected distributed systems for companies from startups to Rocket Mortgage, served as a software forensics expert witness, and taught thousands of developers through 50+ conference talks across North America and Europe.
