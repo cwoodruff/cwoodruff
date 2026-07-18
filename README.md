@@ -4,6 +4,8 @@
 
 <img height="100em" width="100em" src = "https://github.com/Mayur-Pagote/README_Design_Kit/blob/main/public/Assets/linkedin-1.png" width="100">
 
+![Productive Hours](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=cwoodruff&theme=transparent)
+
 <hr>
 Chris “Woody” Woodruff has spent more than 25 years making complex software simpler. A Microsoft MVP in .NET and Web Development (first awarded 2008, re-awarded 2025) and a director on the .NET Foundation board, he has architected distributed systems for companies from startups to Rocket Mortgage, served as a software forensics expert witness, and taught thousands of developers through 50+ conference talks across North America and Europe.
 He is the author of ASP.NET Core Reimagined with htmx and is writing a second book on network programming with C# and .NET. He co-hosts The Breakpoint Show podcast and publishes The Simplicity-First Review, a newsletter on architecture judgment in the age of AI.
