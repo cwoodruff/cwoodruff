@@ -18,8 +18,6 @@ Today, Woody works as a fractional architect and leads the emerging practice of 
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I love bourbon :tumbler_glass:
 
-<img src="https://algora.io/og/user/cwoodruff" />
-
 ## My Recent Content ✍️
 
 ## Latest on the Blog
