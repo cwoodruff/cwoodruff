@@ -1,7 +1,10 @@
 ### Hi there 👋
 
 <hr>
-Chris Woodruff, or as his friends call him Woody, is a software developer and architect of over 25 years. Woody loves software engineering, especially allowing applications and services to communicate across networks and through Web APIs. He has been a Microsoft MVP in SQL, Data and C# in the past, along with multiple years of being awarded the AWS Community Builder Award. Woody lives in Grand Rapids, Michigan, where he explores the many breweries in West Michigan and travels with his family. Woody is also a long-time bourbon fan and loves hunting for whiskey bottles.!
+Chris “Woody” Woodruff has spent more than 25 years making complex software simpler. A Microsoft MVP in .NET and Web Development (first awarded 2008, re-awarded 2025) and a director on the .NET Foundation board, he has architected distributed systems for companies from startups to Rocket Mortgage, served as a software forensics expert witness, and taught thousands of developers through 50+ conference talks across North America and Europe.
+He is the author of ASP.NET Core Reimagined with htmx and is writing a second book on network programming with C# and .NET. He co-hosts The Breakpoint Show podcast and publishes The Simplicity-First Review, a newsletter on architecture judgment in the age of AI.
+Today Woody works as a fractional architect and leads the emerging practice of Agentic Relations™ — helping companies make their APIs, documentation, and SDKs legible to AI coding agents like Claude, Copilot, and Cursor. His thesis is constant across all of it: as AI writes more of the world’s software, the scarce skill is knowing what not to build. He lives in West Michigan and takes his bourbon neat.
+<img width="468" height="217" alt="image" src="https://github.com/user-attachments/assets/462db234-9ed2-4315-8018-c51a751d506f" />
 
 ---
 
