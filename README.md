@@ -18,17 +18,7 @@ Today, Woody works as a fractional architect and leads the emerging practice of 
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I love bourbon :tumbler_glass:
 
-https://github-readme-stats.vercel.app/api?username=cwoodruff&show_icons=true
-
-https://github-readme-stats.vercel.app/api/top-langs/?username=cwoodruff
-
-https://streak-stats.demolab.com?user=cwoodruff
-
-![GitHub Stats](URL)
-
-![Profile Views](https://komarev.com/ghpvc/?username=cwoodruff)
-
-![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Full+Stack+Developer;Open+Source+Contributor;Tech+YouTuber)
+![Terminal Dashboard](https://github-terminal-stats-card.vercel.app/api/card?username=cwoodruff)
 
 ## My Recent Content ✍️
 
