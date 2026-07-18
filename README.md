@@ -22,6 +22,8 @@ Today, Woody works as a fractional architect and leads the emerging practice of 
 
 ![Terminal Dashboard](https://github-terminal-stats-card.vercel.app/api/card?username=cwoodruff)
 
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cwoodruff&theme=transparent"/>
+
 ## My Recent Content ✍️
 
 <!-- YOUTUBE:START -->
