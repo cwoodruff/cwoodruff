@@ -33,11 +33,11 @@ Today, Woody works as a fractional architect and leads the emerging practice of 
 ## My Recent Content ✍️
 
 <!-- YOUTUBE:START -->
+- [Episode 11: The Partnership Pattern](https://www.youtube.com/watch?v=Dexlkwdzl7s)
+- [Episode 10: The Blog Post Pattern](https://www.youtube.com/watch?v=NBAZKJPWsnI)
+- [Episode 9: A Friendly Guide to Developer Advocacy with Linda Ikechukwu](https://www.youtube.com/watch?v=8defPGBj9ms)
 - [Episode 8: The Forum Pattern](https://www.youtube.com/watch?v=ZWM_M6WEjmg)
 - [Episode 7: The Conference Pattern](https://www.youtube.com/watch?v=K6vmy-U5QdU)
-- [Episode 6: The Conference Session Pattern](https://www.youtube.com/watch?v=ayQowqYSfNY)
-- [Episode 4: The Reference Documentation Pattern](https://www.youtube.com/watch?v=vtnNeQs-0dU)
-- [Episode 5: The User Group Network Pattern](https://www.youtube.com/watch?v=ubapu9TJcpY)
 <!-- YOUTUBE:END -->
 
 ## Fresh Releases
