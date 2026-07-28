@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Update the profile README with latest blog posts, YouTube videos, and repos.
-
+ 
 Simplicity-first by design: Python standard library only, no dependencies.
 Each source fails soft — if a fetch errors, the existing README section is
 left untouched rather than clobbered.
 """
 from __future__ import annotations
-
+ 
 import gzip
 import json
 import os
@@ -18,9 +18,9 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-
+ 
 README = Path(__file__).resolve().parent.parent / "README.md"
-
+ 
 BLOG_FEEDS = [
     "https://woodruff.dev/category/blog/feed/",
     "https://woodruff.dev/feed/",  # fallback if the category feed is empty
@@ -33,10 +33,10 @@ NEWSLETTER_FEED = f"{SUBSTACK}/feed"
 NEWSLETTER_API = f"{SUBSTACK}/api/v1/archive?sort=new&offset=0&limit=12"
 GITHUB_USER = "cwoodruff"
 MAX_ITEMS = 5
-
+ 
 ATOM = "{http://www.w3.org/2005/Atom}"
-
-
+ 
+ 
 BOT_UA = "cwoodruff-profile-updater/1.0 (+https://github.com/cwoodruff)"
 # Some hosts (Substack/Cloudflare) reject non-browser agents from datacenter
 # IPs with a 403 — retry those with a browser-like identity.
@@ -44,8 +44,8 @@ BROWSER_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 )
-
-
+ 
+ 
 def _fetch_once(url: str, ua: str) -> bytes:
     req = urllib.request.Request(
         url,
@@ -62,8 +62,8 @@ def _fetch_once(url: str, ua: str) -> bytes:
         if resp.headers.get("Content-Encoding") == "gzip" or data[:2] == b"\x1f\x8b":
             data = gzip.decompress(data)
         return data
-
-
+ 
+ 
 def fetch(url: str) -> bytes:
     try:
         return _fetch_once(url, BOT_UA)
@@ -73,12 +73,12 @@ def fetch(url: str) -> bytes:
                   f"retrying with browser UA", file=sys.stderr)
             return _fetch_once(url, BROWSER_UA)
         raise
-
-
+ 
+ 
 def fmt_date(dt: datetime) -> str:
     return dt.strftime("%b %d, %Y").replace(" 0", " ")
-
-
+ 
+ 
 def parse_rss(raw: bytes) -> list[dict]:
     """Parse an RSS 2.0 feed (WordPress) into [{title, link, date}]."""
     root = ET.fromstring(raw)
@@ -95,8 +95,8 @@ def parse_rss(raw: bytes) -> list[dict]:
             date = None
         items.append({"title": title, "link": link, "date": date})
     return items
-
-
+ 
+ 
 def parse_atom(raw: bytes) -> list[dict]:
     """Parse a YouTube Atom feed into [{title, link, date}]."""
     root = ET.fromstring(raw)
@@ -116,8 +116,8 @@ def parse_atom(raw: bytes) -> list[dict]:
             date = None
         items.append({"title": title, "link": link, "date": date})
     return items
-
-
+ 
+ 
 def get_blog_posts() -> list[dict]:
     for url in BLOG_FEEDS:
         try:
@@ -127,8 +127,8 @@ def get_blog_posts() -> list[dict]:
         except Exception as exc:  # noqa: BLE001 — fail soft per source
             print(f"blog: {url} failed: {exc}", file=sys.stderr)
     return []
-
-
+ 
+ 
 def parse_substack_api(raw: bytes) -> list[dict]:
     """Parse Substack's public archive JSON into [{title, link, date}]."""
     posts = json.loads(raw)
@@ -145,8 +145,8 @@ def parse_substack_api(raw: bytes) -> list[dict]:
             date = None
         items.append({"title": title, "link": link, "date": date})
     return items
-
-
+ 
+ 
 def get_newsletter() -> list[dict]:
     try:
         issues = parse_rss(fetch(NEWSLETTER_FEED))[:MAX_ITEMS]
@@ -160,16 +160,16 @@ def get_newsletter() -> list[dict]:
     except Exception as exc:  # noqa: BLE001
         print(f"newsletter: archive API failed: {exc}", file=sys.stderr)
         return []
-
-
+ 
+ 
 def get_videos() -> list[dict]:
     try:
         return parse_atom(fetch(YOUTUBE_FEED))[:MAX_ITEMS]
     except Exception as exc:  # noqa: BLE001
         print(f"youtube: failed: {exc}", file=sys.stderr)
         return []
-
-
+ 
+ 
 def get_repos() -> list[dict]:
     url = f"https://api.github.com/users/{GITHUB_USER}/repos?sort=pushed&per_page=100"
     req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json"})
@@ -198,8 +198,8 @@ def get_repos() -> list[dict]:
         if len(picked) >= MAX_ITEMS:
             break
     return picked
-
-
+ 
+ 
 def md_list(items: list[dict], with_desc: bool = False) -> str:
     lines = []
     for it in items:
@@ -215,8 +215,8 @@ def md_list(items: list[dict], with_desc: bool = False) -> str:
                 extra = f" — {' · '.join(bits)}"
         lines.append(f"- [{it['title']}]({it['link']}){extra}{date}")
     return "\n".join(lines)
-
-
+ 
+ 
 def replace_section(text: str, marker: str, content: str) -> str:
     """Replace content between <!-- MARKER:START --> and <!-- MARKER:END -->."""
     pattern = re.compile(
@@ -226,28 +226,28 @@ def replace_section(text: str, marker: str, content: str) -> str:
         print(f"warning: markers for {marker} not found", file=sys.stderr)
         return text
     return pattern.sub(rf"\g<1>\n{content}\n\g<3>", text)
-
-
+ 
+ 
 def main() -> int:
     text = README.read_text(encoding="utf-8")
     original = text
-
+ 
     posts = get_blog_posts()
     if posts:
         text = replace_section(text, "BLOG", md_list(posts))
-
+ 
     issues = get_newsletter()
     if issues:
         text = replace_section(text, "NEWSLETTER", md_list(issues))
-
+ 
     videos = get_videos()
     if videos:
         text = replace_section(text, "VIDEOS", md_list(videos))
-
+ 
     repos = get_repos()
     if repos:
         text = replace_section(text, "REPOS", md_list(repos, with_desc=True))
-
+ 
     if text != original:
         stamp = datetime.now(timezone.utc).strftime("%b %d, %Y %H:%M UTC")
         stamped = re.sub(
@@ -264,7 +264,8 @@ def main() -> int:
     else:
         print("No changes.")
     return 0
-
-
+ 
+ 
 if __name__ == "__main__":
     sys.exit(main())
+ 
