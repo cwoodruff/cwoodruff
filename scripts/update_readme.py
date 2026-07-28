@@ -12,6 +12,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -27,18 +28,32 @@ BLOG_FEEDS = [
 YOUTUBE_FEED = (
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCxPeKO4KK3m2FJevc_3Of2w"
 )
-NEWSLETTER_FEED = "https://simplicityfirstphilosophy.substack.com/feed"
+SUBSTACK = "https://simplicityfirstphilosophy.substack.com"
+NEWSLETTER_FEED = f"{SUBSTACK}/feed"
+NEWSLETTER_API = f"{SUBSTACK}/api/v1/archive?sort=new&offset=0&limit=12"
 GITHUB_USER = "cwoodruff"
 MAX_ITEMS = 5
 
 ATOM = "{http://www.w3.org/2005/Atom}"
 
 
-def fetch(url: str) -> bytes:
+BOT_UA = "cwoodruff-profile-updater/1.0 (+https://github.com/cwoodruff)"
+# Some hosts (Substack/Cloudflare) reject non-browser agents from datacenter
+# IPs with a 403 — retry those with a browser-like identity.
+BROWSER_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+)
+
+
+def _fetch_once(url: str, ua: str) -> bytes:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "cwoodruff-profile-updater/1.0 (+https://github.com/cwoodruff)",
+            "User-Agent": ua,
+            "Accept": "application/rss+xml, application/atom+xml, "
+            "application/xml, text/xml, application/json, */*",
+            "Accept-Language": "en-US,en;q=0.9",
             "Accept-Encoding": "gzip",
         },
     )
@@ -47,6 +62,17 @@ def fetch(url: str) -> bytes:
         if resp.headers.get("Content-Encoding") == "gzip" or data[:2] == b"\x1f\x8b":
             data = gzip.decompress(data)
         return data
+
+
+def fetch(url: str) -> bytes:
+    try:
+        return _fetch_once(url, BOT_UA)
+    except urllib.error.HTTPError as exc:
+        if exc.code in (401, 403, 406, 429):
+            print(f"fetch: {url} returned {exc.code} with bot UA, "
+                  f"retrying with browser UA", file=sys.stderr)
+            return _fetch_once(url, BROWSER_UA)
+        raise
 
 
 def fmt_date(dt: datetime) -> str:
@@ -103,11 +129,36 @@ def get_blog_posts() -> list[dict]:
     return []
 
 
+def parse_substack_api(raw: bytes) -> list[dict]:
+    """Parse Substack's public archive JSON into [{title, link, date}]."""
+    posts = json.loads(raw)
+    items = []
+    for p in posts:
+        title = (p.get("title") or "").strip()
+        link = (p.get("canonical_url") or "").strip()
+        pub = (p.get("post_date") or "").strip()
+        if not title or not link:
+            continue
+        try:
+            date = datetime.fromisoformat(pub.replace("Z", "+00:00"))
+        except ValueError:
+            date = None
+        items.append({"title": title, "link": link, "date": date})
+    return items
+
+
 def get_newsletter() -> list[dict]:
     try:
-        return parse_rss(fetch(NEWSLETTER_FEED))[:MAX_ITEMS]
+        issues = parse_rss(fetch(NEWSLETTER_FEED))[:MAX_ITEMS]
+        if issues:
+            return issues
+        print("newsletter: RSS feed returned no items", file=sys.stderr)
     except Exception as exc:  # noqa: BLE001
-        print(f"newsletter: failed: {exc}", file=sys.stderr)
+        print(f"newsletter: RSS failed: {exc}", file=sys.stderr)
+    try:
+        return parse_substack_api(fetch(NEWSLETTER_API))[:MAX_ITEMS]
+    except Exception as exc:  # noqa: BLE001
+        print(f"newsletter: archive API failed: {exc}", file=sys.stderr)
         return []
 
 
