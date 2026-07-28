@@ -1,130 +1,219 @@
-import os, re, json, requests, feedparser, subprocess
+#!/usr/bin/env python3
+"""Update the profile README with latest blog posts, YouTube videos, and repos.
+
+Simplicity-first by design: Python standard library only, no dependencies.
+Each source fails soft — if a fetch errors, the existing README section is
+left untouched rather than clobbered.
+"""
+from __future__ import annotations
+
+import gzip
+import json
+import os
+import re
+import sys
+import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+from pathlib import Path
 
-README = "README.md"
+README = Path(__file__).resolve().parent.parent / "README.md"
 
-def between(s, start, end, new_block):
-    pattern = re.compile(rf"({re.escape(start)})(.*)({re.escape(end)})", re.S)
-    return pattern.sub(rf"\1\n{new_block}\n\3", s)
+BLOG_FEEDS = [
+    "https://woodruff.dev/category/blog/feed/",
+    "https://woodruff.dev/feed/",  # fallback if the category feed is empty
+]
+YOUTUBE_FEED = (
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCxPeKO4KK3m2FJevc_3Of2w"
+)
+NEWSLETTER_FEED = "https://simplicityfirstphilosophy.substack.com/feed"
+GITHUB_USER = "cwoodruff"
+MAX_ITEMS = 5
 
-def fmt_item(title, url, meta=None):
-    if meta:
-        return f"- [{title}]({url})  \n  {meta}"
-    return f"- [{title}]({url})"
+ATOM = "{http://www.w3.org/2005/Atom}"
 
-def fetch_wordpress(feed_url, limit):
-    d = feedparser.parse(feed_url)
+
+def fetch(url: str) -> bytes:
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "cwoodruff-profile-updater/1.0 (+https://github.com/cwoodruff)",
+            "Accept-Encoding": "gzip",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = resp.read()
+        if resp.headers.get("Content-Encoding") == "gzip" or data[:2] == b"\x1f\x8b":
+            data = gzip.decompress(data)
+        return data
+
+
+def fmt_date(dt: datetime) -> str:
+    return dt.strftime("%b %d, %Y").replace(" 0", " ")
+
+
+def parse_rss(raw: bytes) -> list[dict]:
+    """Parse an RSS 2.0 feed (WordPress) into [{title, link, date}]."""
+    root = ET.fromstring(raw)
     items = []
-    for e in d.entries[:limit]:
-        title = e.title
-        link = e.link
-        # Prefer published_parsed; fallback gracefully
-        date = None
-        if getattr(e, "published_parsed", None):
-            date = datetime(*e.published_parsed[:6], tzinfo=timezone.utc).date().isoformat()
-        elif getattr(e, "updated_parsed", None):
-            date = datetime(*e.updated_parsed[:6], tzinfo=timezone.utc).date().isoformat()
-        summary = (e.summary or "").strip()
-        # Trim summaries a bit
-        summary = re.sub("<.*?>", "", summary)
-        if len(summary) > 160:
-            summary = summary[:157] + "..."
-        meta = f"*{date}* — {summary}" if date else summary
-        items.append(fmt_item(title, link, meta))
-    return "\n".join(items) if items else "_No recent posts_"
-
-def gh_headers():
-    pat = os.environ.get("GH_PAT") or os.environ.get("GITHUB_TOKEN")
-    return {"Authorization": f"Bearer {pat}", "Accept": "application/vnd.github+json"}
-
-def fetch_release_candidates(user, release_repos):
-    # If explicit repos supplied, use those. Else list user repos and filter by "has_releases".
-    headers = gh_headers()
-    repos = []
-    if release_repos:
-        repos = [r.strip() for r in release_repos.split(",") if r.strip()]
-    else:
-        page = 1
-        while True:
-            resp = requests.get(f"https://api.github.com/users/{user}/repos?per_page=100&page={page}", headers=headers, timeout=30)
-            if resp.status_code != 200 or not resp.json():
-                break
-            for r in resp.json():
-                repos.append(f"{r['owner']['login']}/{r['name']}")
-            page += 1
-    return repos
-
-def fetch_latest_releases(repos, limit):
-    headers = gh_headers()
-    rels = []
-    for full in repos:
-        owner, name = full.split("/", 1)
-        r = requests.get(f"https://api.github.com/repos/{owner}/{name}/releases?per_page=1", headers=headers, timeout=30)
-        if r.status_code == 200 and r.json():
-            rel = r.json()[0]
-            rels.append({
-                "repo": full,
-                "tag": rel.get("tag_name"),
-                "name": rel.get("name") or rel.get("tag_name"),
-                "url": rel.get("html_url"),
-                "published_at": rel.get("published_at")
-            })
-    # Sort by published date desc
-    rels.sort(key=lambda x: x["published_at"] or "", reverse=True)
-    out = []
-    for r in rels[:limit]:
-        date = r["published_at"][:10] if r["published_at"] else ""
-        meta = f"*{date}* — {r['repo']}"
-        out.append(fmt_item(r["name"], r["url"], meta))
-    return "\n".join(out) if out else "_No recent releases_"
-
-def fetch_linkedin_items(linkedin_rss, linkedin_webhook_cache, limit):
-    # Preferred: an RSS feed URL (see notes). Fallback: a JSON cache URL produced by a low-code tool/webhook.
-    if linkedin_rss:
-        d = feedparser.parse(linkedin_rss)
-        items = []
-        for e in d.entries[:limit]:
-            title = e.title
-            link = e.link
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub = (item.findtext("pubDate") or "").strip()
+        if not title or not link:
+            continue
+        try:
+            date = parsedate_to_datetime(pub)
+        except (TypeError, ValueError):
             date = None
-            if getattr(e, "published_parsed", None):
-                date = datetime(*e.published_parsed[:6], tzinfo=timezone.utc).date().isoformat()
-            meta = f"*{date}*" if date else None
-            items.append(fmt_item(title, link, meta))
-        return "\n".join(items) if items else "_No recent issues_"
-    elif linkedin_webhook_cache:
-        r = requests.get(linkedin_webhook_cache, timeout=30)
-        if r.status_code == 200:
-            arr = r.json()[:limit]
-            items = [fmt_item(x["title"], x["url"], f"*{x.get('date','')}*") for x in arr]
-            return "\n".join(items) if items else "_No recent issues_"
-    return "_Not configured_"
+        items.append({"title": title, "link": link, "date": date})
+    return items
 
-def main():
-    readme = open(README, "r", encoding="utf-8").read()
 
-    limit = int(os.environ.get("ITEMS_PER_SECTION", "10"))
+def parse_atom(raw: bytes) -> list[dict]:
+    """Parse a YouTube Atom feed into [{title, link, date}]."""
+    root = ET.fromstring(raw)
+    items = []
+    for entry in root.iter(f"{ATOM}entry"):
+        title = (entry.findtext(f"{ATOM}title") or "").strip()
+        link_el = entry.find(f"{ATOM}link[@rel='alternate']")
+        if link_el is None:
+            link_el = entry.find(f"{ATOM}link")
+        link = link_el.get("href", "").strip() if link_el is not None else ""
+        pub = (entry.findtext(f"{ATOM}published") or "").strip()
+        if not title or not link:
+            continue
+        try:
+            date = datetime.fromisoformat(pub)
+        except ValueError:
+            date = None
+        items.append({"title": title, "link": link, "date": date})
+    return items
 
-    # WordPress
-    wp_feed = os.environ.get("WORDPRESS_FEED")
-    wp_block = fetch_wordpress(wp_feed, limit) if wp_feed else "_Not configured_"
-    readme = between(readme, "<!-- WP:START -->", "<!-- WP:END -->", wp_block)
 
-    # Releases
-    user = os.environ.get("GITHUB_USER")
-    rel_repos = os.environ.get("RELEASE_REPOS", "")
-    repos = fetch_release_candidates(user, rel_repos)
-    rel_block = fetch_latest_releases(repos, limit)
-    readme = between(readme, "<!-- REL:START -->", "<!-- REL:END -->", rel_block)
+def get_blog_posts() -> list[dict]:
+    for url in BLOG_FEEDS:
+        try:
+            posts = parse_rss(fetch(url))
+            if posts:
+                return posts[:MAX_ITEMS]
+        except Exception as exc:  # noqa: BLE001 — fail soft per source
+            print(f"blog: {url} failed: {exc}", file=sys.stderr)
+    return []
 
-    # LinkedIn
-    li_rss = os.environ.get("LINKEDIN_RSS", "")
-    li_cache = os.environ.get("LINKEDIN_WEBHOOK_CACHE", "")
-    li_block = fetch_linkedin_items(li_rss, li_cache, limit)
-    readme = between(readme, "<!-- LI:START -->", "<!-- LI:END -->", li_block)
 
-    with open(README, "w", encoding="utf-8") as f:
-        f.write(readme)
+def get_newsletter() -> list[dict]:
+    try:
+        return parse_rss(fetch(NEWSLETTER_FEED))[:MAX_ITEMS]
+    except Exception as exc:  # noqa: BLE001
+        print(f"newsletter: failed: {exc}", file=sys.stderr)
+        return []
+
+
+def get_videos() -> list[dict]:
+    try:
+        return parse_atom(fetch(YOUTUBE_FEED))[:MAX_ITEMS]
+    except Exception as exc:  # noqa: BLE001
+        print(f"youtube: failed: {exc}", file=sys.stderr)
+        return []
+
+
+def get_repos() -> list[dict]:
+    url = f"https://api.github.com/users/{GITHUB_USER}/repos?sort=pushed&per_page=100"
+    req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json"})
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        req.add_header("Authorization", f"Bearer {token}")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            repos = json.load(resp)
+    except Exception as exc:  # noqa: BLE001
+        print(f"repos: failed: {exc}", file=sys.stderr)
+        return []
+    picked = []
+    for r in repos:
+        if r.get("fork") or r.get("archived") or r.get("name") == GITHUB_USER:
+            continue
+        picked.append(
+            {
+                "title": r["name"],
+                "link": r["html_url"],
+                "desc": (r.get("description") or "").strip(),
+                "stars": r.get("stargazers_count", 0),
+                "date": datetime.fromisoformat(r["pushed_at"].replace("Z", "+00:00")),
+            }
+        )
+        if len(picked) >= MAX_ITEMS:
+            break
+    return picked
+
+
+def md_list(items: list[dict], with_desc: bool = False) -> str:
+    lines = []
+    for it in items:
+        date = f" — <sub>{fmt_date(it['date'])}</sub>" if it.get("date") else ""
+        extra = ""
+        if with_desc:
+            bits = []
+            if it.get("desc"):
+                bits.append(it["desc"])
+            if it.get("stars"):
+                bits.append(f"★ {it['stars']}")
+            if bits:
+                extra = f" — {' · '.join(bits)}"
+        lines.append(f"- [{it['title']}]({it['link']}){extra}{date}")
+    return "\n".join(lines)
+
+
+def replace_section(text: str, marker: str, content: str) -> str:
+    """Replace content between <!-- MARKER:START --> and <!-- MARKER:END -->."""
+    pattern = re.compile(
+        rf"(<!-- {marker}:START -->)(.*?)(<!-- {marker}:END -->)", re.DOTALL
+    )
+    if not pattern.search(text):
+        print(f"warning: markers for {marker} not found", file=sys.stderr)
+        return text
+    return pattern.sub(rf"\g<1>\n{content}\n\g<3>", text)
+
+
+def main() -> int:
+    text = README.read_text(encoding="utf-8")
+    original = text
+
+    posts = get_blog_posts()
+    if posts:
+        text = replace_section(text, "BLOG", md_list(posts))
+
+    issues = get_newsletter()
+    if issues:
+        text = replace_section(text, "NEWSLETTER", md_list(issues))
+
+    videos = get_videos()
+    if videos:
+        text = replace_section(text, "VIDEOS", md_list(videos))
+
+    repos = get_repos()
+    if repos:
+        text = replace_section(text, "REPOS", md_list(repos, with_desc=True))
+
+    if text != original:
+        stamp = datetime.now(timezone.utc).strftime("%b %d, %Y %H:%M UTC")
+        stamped = re.sub(
+            r"(<!-- STAMP:START -->)(.*?)(<!-- STAMP:END -->)",
+            rf"\g<1>{stamp}\g<3>",
+            text,
+            flags=re.DOTALL,
+        )
+        README.write_text(stamped, encoding="utf-8")
+        print(
+            f"README updated ({len(posts)} posts, {len(issues)} newsletter issues, "
+            f"{len(videos)} videos, {len(repos)} repos)"
+        )
+    else:
+        print("No changes.")
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

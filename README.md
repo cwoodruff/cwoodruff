@@ -1,52 +1,66 @@
-### Hi there 👋
+<h1 align="center">Chris “Woody” Woodruff</h1>
 
-![Stats Bar Card](https://github-widgetbox.vercel.app/api/profile?username=cwoodruff&data=followers,repositories,stars,commits&theme=dark)
+<p align="center"><b>Simplicity-first architect for the agentic era</b></p>
 
-<img height="100em" width="100em" src = "https://github.com/Mayur-Pagote/README_Design_Kit/blob/main/public/Assets/linkedin-1.png" width="100">
-
-![Productive Hours](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=cwoodruff&theme=transparent)
-
-<hr>
-Chris “Woody” Woodruff has spent more than 25 years making complex software simpler. A Microsoft MVP in .NET and Web Development (first awarded 2008, re-awarded 2025) and a director on the .NET Foundation board, he has architected distributed systems for companies from startups to Rocket Mortgage, served as a software forensics expert witness, and taught thousands of developers through 50+ conference talks across North America and Europe.
-He is the author of ASP.NET Core Reimagined with htmx and is writing a second book on network programming with C# and .NET. He co-hosts The Breakpoint Show podcast and publishes The Simplicity-First Review, a newsletter on architecture judgment in the age of AI.
-Today, Woody works as a fractional architect and leads the emerging practice of Agentic Relations™, helping companies make their APIs, documentation, and SDKs legible to AI coding agents like Claude, Copilot, and Cursor. His thesis is constant across all of it: as AI writes more of the world’s software, the scarce skill is knowing what not to build. He lives in West Michigan and takes his bourbon neat.
+<p align="center">
+  <a href="https://woodruff.dev">woodruff.dev</a> ·
+  <a href="https://simplicity-first.dev">simplicity-first.dev</a> ·
+  <a href="https://simplicityfirstphilosophy.substack.com">The Simplicity-First Philosophy</a> ·
+  <a href="https://www.linkedin.com/in/chriswoodruff/">LinkedIn</a> ·
+  <a href="https://www.youtube.com/channel/UCxPeKO4KK3m2FJevc_3Of2w">YouTube</a>
+</p>
 
 ---
 
-- 👯 I’m looking to collaborate on more open-source projects.
-- 💬 Ask me about Web APIs, Network Programming, Leadership, .NET, Relational Databases, EF Core, Open Source etc.
-- 📫 How to reach me:
-  - Social Media
-    - [LinkedIn](https://www.linkedin.com/in/chriswoodruff/ "My LinkedIn") | [Mastodon](https://mastodon.social/@cwoodruff "Mastodon") | [Bluesky](https://bsky.app/profile/chriswoodruff.bsky.social) | [LinkTree](https://linktr.ee/woodychris)
-  - Technical Writing Profiles: 
-    - [Blog](https://woodruff.dev "Blog")
+I've spent 25+ years learning what breaks in software. Now I help teams — and AI agents — build what won't.
 
-- 😄 Pronouns: he/him
-- ⚡ Fun fact: I love bourbon :tumbler_glass:
+Microsoft MVP (.NET & Web, 2008–2014 and 2025–present) · Author of [*ASP.NET Core Reimagined with htmx*](https://aspnet-htmx.com) and [*Beyond Boundaries: Network Programming with C# and .NET*](https://csharp-networking.com) (both free online) · Director, .NET Foundation board · Co-host of [The Breakpoint Show](https://www.breakpoint.show) · 50+ conference talks; Sessionize Most Active Speaker 2023–2025.
 
-## &#x1f4c8; GitHub Stats
+My thesis is constant across all of it: **as AI writes more of the world's software, the scarce skill is knowing what not to build.**
 
-![Terminal Dashboard](https://github-terminal-stats-card.vercel.app/api/card?username=cwoodruff)
+## 🔨 What I'm building
 
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cwoodruff&theme=transparent"/>
+| Project | What it is |
+|---|---|
+| [htmxRazor](https://htmxrazor.com) | 90+ server-rendered UI components for ASP.NET Core with first-class htmx support. Most web apps don't need a JavaScript framework. |
+| [SimplicityTools](https://simplicitytools.dev) | .NET analyzers and CLI that measure complexity before it measures your team. |
+| [Beyond Boundaries](https://github.com/cwoodruff/book-network-programming-csharp) | Network programming with C# — from sockets to QUIC to MCP. |
+| [ChinookDatabase](https://github.com/cwoodruff/ChinookDatabase) | The sample database used by thousands of developers and tutorials. |
 
-## My Recent Content ✍️
+## ✍️ Latest essays
 
-<!-- YOUTUBE:START -->
-- [Episode 11: The Partnership Pattern](https://www.youtube.com/watch?v=Dexlkwdzl7s)
-- [Episode 10: The Blog Post Pattern](https://www.youtube.com/watch?v=NBAZKJPWsnI)
-- [Episode 9: A Friendly Guide to Developer Advocacy with Linda Ikechukwu](https://www.youtube.com/watch?v=8defPGBj9ms)
-- [Episode 8: The Forum Pattern](https://www.youtube.com/watch?v=ZWM_M6WEjmg)
-- [Episode 7: The Conference Pattern](https://www.youtube.com/watch?v=K6vmy-U5QdU)
-<!-- YOUTUBE:END -->
+<!-- BLOG:START -->
+*Updated automatically from [woodruff.dev](https://woodruff.dev/category/blog/) — run the “Update profile README” action to populate.*
+<!-- BLOG:END -->
 
-## Fresh Releases
-<!-- REL:START -->
-- [Release   v1.26.0](https://github.com/cwoodruff/morespeakers-com/releases/tag/v1.26.0)  
-  *2026-01-30* — cwoodruff/morespeakers-com
-<!-- REL:END -->
+## 📰 Latest from the newsletter
 
-## Latest Substack Newsletters
-<!-- LI:START -->
-- []([https://rss.app](https://simplicityfirstphilosophy.substack.com/feed))  
-<!-- LI:END -->
+<!-- NEWSLETTER:START -->
+*Updated automatically from [The Simplicity-First Philosophy](https://simplicityfirstphilosophy.substack.com) — run the “Update profile README” action to populate.*
+<!-- NEWSLETTER:END -->
+
+<sub>[Subscribe →](https://simplicityfirstphilosophy.substack.com/subscribe)</sub>
+
+## 📺 Latest videos
+
+<!-- VIDEOS:START -->
+*Updated automatically from [YouTube](https://www.youtube.com/channel/UCxPeKO4KK3m2FJevc_3Of2w) — run the “Update profile README” action to populate.*
+<!-- VIDEOS:END -->
+
+## ⚡ Recently active repos
+
+<!-- REPOS:START -->
+*Updated automatically from the GitHub API — run the “Update profile README” action to populate.*
+<!-- REPOS:END -->
+
+---
+
+### The three filters I apply to every system
+
+**The 2 AM Test** — could an engineer who has never seen this system troubleshoot it at 2 AM?
+**The Half-Rule** — are we building what we need now, or what we imagine needing someday?
+**Primary Path First** — is the common workflow protected before the edge cases get their turn?
+
+📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
+
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->never<!-- STAMP:END --></sub>
