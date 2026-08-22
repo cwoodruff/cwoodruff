@@ -30,11 +30,11 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## ✍️ Latest essays
 
 <!-- BLOG:START -->
+- [Beyond Boundaries Is Getting a Major Update for .NET 11 and C# 15](https://woodruff.dev/beyond-boundaries-is-getting-a-major-update-for-net-11-and-c-15/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-boundaries-is-getting-a-major-update-for-net-11-and-c-15) — <sub>Aug 21, 2026</sub>
 - [The N+1 Query Problem in EF Core: Detection, Diagnosis, and Permanent Fixes](https://woodruff.dev/the-n1-query-problem-in-ef-core/?utm_source=rss&utm_medium=rss&utm_campaign=the-n1-query-problem-in-ef-core) — <sub>Jul 7, 2026</sub>
 - [Add vs AddRange in EF Core: The Performance Myth You Need to Stop Repeating](https://woodruff.dev/add-vs-addrange-in-ef-core-the-performance-myth-you-need-to-stop-repeating/?utm_source=rss&utm_medium=rss&utm_campaign=add-vs-addrange-in-ef-core-the-performance-myth-you-need-to-stop-repeating) — <sub>Jul 2, 2026</sub>
 - [5 EF Core Performance Anti-Patterns That Entity Framework Extensions Eliminates](https://woodruff.dev/5-ef-core-performance-anti-patterns-that-entity-framework-extensions-eliminates/?utm_source=rss&utm_medium=rss&utm_campaign=5-ef-core-performance-anti-patterns-that-entity-framework-extensions-eliminates) — <sub>Jul 1, 2026</sub>
 - [BulkSynchronize in EF Core: Mirror Your Data in One Operation](https://woodruff.dev/bulksynchronize-in-ef-core-mirror-your-data-in-one-operation/?utm_source=rss&utm_medium=rss&utm_campaign=bulksynchronize-in-ef-core-mirror-your-data-in-one-operation) — <sub>Jun 25, 2026</sub>
-- [Scaling EF Core for Data Imports: From CSV Files to Millions of Database Rows](https://woodruff.dev/scaling-ef-core-for-data-imports/?utm_source=rss&utm_medium=rss&utm_campaign=scaling-ef-core-for-data-imports) — <sub>Jun 23, 2026</sub>
 <!-- BLOG:END -->
 
 ## 📰 Latest from the newsletter
@@ -75,4 +75,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Aug 18, 2026 11:25 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Aug 22, 2026 11:24 UTC<!-- STAMP:END --></sub>
