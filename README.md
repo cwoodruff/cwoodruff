@@ -58,11 +58,11 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## ⚡ Recently active repos
 
 <!-- REPOS:START -->
+- [zzz-efe-demos](https://github.com/cwoodruff/zzz-efe-demos) — <sub>Sep 3, 2026</sub>
 - [book-network-programming-csharp](https://github.com/cwoodruff/book-network-programming-csharp) — ★ 68 — <sub>Aug 23, 2026</sub>
 - [aspnet-alpinejs](https://github.com/cwoodruff/aspnet-alpinejs) — A sample project to see how well AlpineJS web components work with ASP.NET Razor Pages · ★ 3 — <sub>Aug 22, 2026</sub>
 - [AirFreightRouter](https://github.com/cwoodruff/AirFreightRouter) — LECO Software Test · ★ 1 — <sub>Aug 18, 2026</sub>
 - [genetic-algorithms](https://github.com/cwoodruff/genetic-algorithms) — genetic algorithm in C# · ★ 4 — <sub>Aug 17, 2026</sub>
-- [SimplicityTools](https://github.com/cwoodruff/SimplicityTools) — ★ 2 — <sub>Aug 17, 2026</sub>
 <!-- REPOS:END -->
 
 ---
@@ -75,4 +75,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Sep 03, 2026 11:22 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Sep 04, 2026 11:23 UTC<!-- STAMP:END --></sub>
