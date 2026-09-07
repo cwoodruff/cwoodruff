@@ -58,7 +58,7 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## ⚡ Recently active repos
 
 <!-- REPOS:START -->
-- [baseball-history](https://github.com/cwoodruff/baseball-history) — Baseball History · ★ 3 — <sub>Sep 6, 2026</sub>
+- [baseball-history](https://github.com/cwoodruff/baseball-history) — Baseball History · ★ 3 — <sub>Sep 7, 2026</sub>
 - [zzz-efe-demos](https://github.com/cwoodruff/zzz-efe-demos) — ★ 1 — <sub>Sep 3, 2026</sub>
 - [book-network-programming-csharp](https://github.com/cwoodruff/book-network-programming-csharp) — ★ 68 — <sub>Aug 23, 2026</sub>
 - [aspnet-alpinejs](https://github.com/cwoodruff/aspnet-alpinejs) — A sample project to see how well AlpineJS web components work with ASP.NET Razor Pages · ★ 3 — <sub>Aug 22, 2026</sub>
@@ -75,4 +75,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Sep 06, 2026 11:20 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Sep 07, 2026 11:24 UTC<!-- STAMP:END --></sub>
