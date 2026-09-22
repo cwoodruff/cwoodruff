@@ -58,11 +58,11 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## ⚡ Recently active repos
 
 <!-- REPOS:START -->
-- [rust-api-modular-monolithic](https://github.com/cwoodruff/rust-api-modular-monolithic) — <sub>Sep 19, 2026</sub>
-- [dotnet-claude-starter-kit](https://github.com/cwoodruff/dotnet-claude-starter-kit) — ★ 3 — <sub>Sep 14, 2026</sub>
-- [aspnetcore-min-api-modular-monolithic](https://github.com/cwoodruff/aspnetcore-min-api-modular-monolithic) — <sub>Sep 12, 2026</sub>
-- [baseball-history](https://github.com/cwoodruff/baseball-history) — Baseball History · ★ 3 — <sub>Sep 7, 2026</sub>
-- [zzz-efe-demos](https://github.com/cwoodruff/zzz-efe-demos) — ★ 1 — <sub>Sep 3, 2026</sub>
+- [odata-rust-modular-monolith](https://github.com/cwoodruff/odata-rust-modular-monolith) — <sub>Sep 21, 2026</sub>
+- [ArchUnitRust](https://github.com/cwoodruff/ArchUnitRust) — <sub>Sep 21, 2026</sub>
+- [rust-api-modular-monolithic](https://github.com/cwoodruff/rust-api-modular-monolithic) — <sub>Sep 21, 2026</sub>
+- [baseball-history](https://github.com/cwoodruff/baseball-history) — Baseball History · ★ 3 — <sub>Sep 21, 2026</sub>
+- [rustifying-your-csharp-codebase](https://github.com/cwoodruff/rustifying-your-csharp-codebase) — ★ 2 — <sub>Sep 21, 2026</sub>
 <!-- REPOS:END -->
 
 ---
@@ -75,4 +75,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Sep 20, 2026 11:21 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Sep 22, 2026 11:24 UTC<!-- STAMP:END --></sub>
