@@ -58,11 +58,11 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## ⚡ Recently active repos
 
 <!-- REPOS:START -->
+- [htmxRazor](https://github.com/cwoodruff/htmxRazor) — htmx Components for ASP.NET Core · ★ 116 — <sub>Sep 25, 2026</sub>
+- [ArchUnitRust](https://github.com/cwoodruff/ArchUnitRust) — <sub>Sep 25, 2026</sub>
 - [ASPCoreAPIMemCaching](https://github.com/cwoodruff/ASPCoreAPIMemCaching) — ASP.NET Core MVC demoing Memory Caching for Web API · ★ 1 — <sub>Sep 23, 2026</sub>
-- [ArchUnitRust](https://github.com/cwoodruff/ArchUnitRust) — <sub>Sep 22, 2026</sub>
 - [genetic-algorithms](https://github.com/cwoodruff/genetic-algorithms) — genetic algorithm in C# · ★ 5 — <sub>Sep 22, 2026</sub>
 - [odata-rust-modular-monolith](https://github.com/cwoodruff/odata-rust-modular-monolith) — <sub>Sep 21, 2026</sub>
-- [rust-api-modular-monolithic](https://github.com/cwoodruff/rust-api-modular-monolithic) — ★ 1 — <sub>Sep 21, 2026</sub>
 <!-- REPOS:END -->
 
 ---
@@ -75,4 +75,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Sep 24, 2026 11:25 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Sep 26, 2026 11:22 UTC<!-- STAMP:END --></sub>
