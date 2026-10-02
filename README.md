@@ -58,7 +58,7 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## ⚡ Recently active repos
 
 <!-- REPOS:START -->
-- [aspnetcore-min-api-modular-monolithic](https://github.com/cwoodruff/aspnetcore-min-api-modular-monolithic) — <sub>Oct 1, 2026</sub>
+- [aspnetcore-min-api-modular-monolithic](https://github.com/cwoodruff/aspnetcore-min-api-modular-monolithic) — <sub>Oct 2, 2026</sub>
 - [SocialShare](https://github.com/cwoodruff/SocialShare) — <sub>Sep 28, 2026</sub>
 - [htmxRazor](https://github.com/cwoodruff/htmxRazor) — htmx Components for ASP.NET Core · ★ 116 — <sub>Sep 25, 2026</sub>
 - [ArchUnitRust](https://github.com/cwoodruff/ArchUnitRust) — <sub>Sep 25, 2026</sub>
@@ -75,4 +75,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Oct 01, 2026 11:26 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Oct 02, 2026 11:26 UTC<!-- STAMP:END --></sub>
