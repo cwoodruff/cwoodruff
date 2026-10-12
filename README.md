@@ -48,21 +48,21 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## 📺 Latest videos
 
 <!-- VIDEOS:START -->
+- [Entity Framework Extensions in Action: Six Real Jobs on EF Core 10](https://www.youtube.com/watch?v=e4TDDf67W5o) — <sub>Oct 12, 2026</sub>
 - [Welcome to our live show!](https://www.youtube.com/watch?v=fUOs01GO1YM) — <sub>Apr 29, 2026</sub>
 - [Welcome to our live show!](https://www.youtube.com/watch?v=OGI0oRVKoE8) — <sub>Apr 28, 2026</sub>
 - [Welcome to our live show!](https://www.youtube.com/watch?v=uJoTxHfDkKc) — <sub>Apr 24, 2026</sub>
 - [Welcome to our live show!](https://www.youtube.com/watch?v=eHbtER840kA) — <sub>Apr 23, 2026</sub>
-- [Welcome to our live show!](https://www.youtube.com/watch?v=LbtpUnYXtsY) — <sub>Apr 22, 2026</sub>
 <!-- VIDEOS:END -->
 
 ## ⚡ Recently active repos
 
 <!-- REPOS:START -->
-- [EFCoreDemos](https://github.com/cwoodruff/EFCoreDemos) — ★ 32 — <sub>Oct 9, 2026</sub>
+- [EFCoreDemos](https://github.com/cwoodruff/EFCoreDemos) — ★ 32 — <sub>Oct 12, 2026</sub>
+- [SimplicityTools](https://github.com/cwoodruff/SimplicityTools) — ★ 2 — <sub>Oct 11, 2026</sub>
 - [woodruff-dev](https://github.com/cwoodruff/woodruff-dev) — <sub>Oct 6, 2026</sub>
 - [aspnetcore-min-api-modular-monolithic](https://github.com/cwoodruff/aspnetcore-min-api-modular-monolithic) — <sub>Oct 3, 2026</sub>
 - [SocialShare](https://github.com/cwoodruff/SocialShare) — <sub>Sep 28, 2026</sub>
-- [htmxRazor](https://github.com/cwoodruff/htmxRazor) — htmx Components for ASP.NET Core · ★ 116 — <sub>Sep 25, 2026</sub>
 <!-- REPOS:END -->
 
 ---
@@ -75,4 +75,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Oct 09, 2026 11:26 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Oct 12, 2026 11:29 UTC<!-- STAMP:END --></sub>
