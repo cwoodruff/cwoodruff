@@ -58,7 +58,7 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## ⚡ Recently active repos
 
 <!-- REPOS:START -->
-- [EFCoreDemos](https://github.com/cwoodruff/EFCoreDemos) — ★ 32 — <sub>Oct 12, 2026</sub>
+- [EFCoreDemos](https://github.com/cwoodruff/EFCoreDemos) — ★ 32 — <sub>Oct 13, 2026</sub>
 - [SimplicityTools](https://github.com/cwoodruff/SimplicityTools) — ★ 2 — <sub>Oct 11, 2026</sub>
 - [woodruff-dev](https://github.com/cwoodruff/woodruff-dev) — <sub>Oct 6, 2026</sub>
 - [aspnetcore-min-api-modular-monolithic](https://github.com/cwoodruff/aspnetcore-min-api-modular-monolithic) — <sub>Oct 3, 2026</sub>
@@ -75,4 +75,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Oct 12, 2026 11:29 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Oct 13, 2026 11:29 UTC<!-- STAMP:END --></sub>
