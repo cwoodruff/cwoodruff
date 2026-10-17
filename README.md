@@ -58,11 +58,11 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## ⚡ Recently active repos
 
 <!-- REPOS:START -->
+- [asp-claudecode](https://github.com/cwoodruff/asp-claudecode) — ★ 1 — <sub>Oct 16, 2026</sub>
 - [EFCoreDemos](https://github.com/cwoodruff/EFCoreDemos) — ★ 32 — <sub>Oct 16, 2026</sub>
 - [woodruff-dev](https://github.com/cwoodruff/woodruff-dev) — <sub>Oct 16, 2026</sub>
 - [dotnet-architectures](https://github.com/cwoodruff/dotnet-architectures) — <sub>Oct 16, 2026</sub>
 - [baseball-history-desktop](https://github.com/cwoodruff/baseball-history-desktop) — <sub>Oct 15, 2026</sub>
-- [morespeakers-com](https://github.com/cwoodruff/morespeakers-com) — ★ 6 — <sub>Oct 15, 2026</sub>
 <!-- REPOS:END -->
 
 ---
@@ -75,4 +75,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Oct 16, 2026 11:25 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Oct 17, 2026 11:22 UTC<!-- STAMP:END --></sub>
