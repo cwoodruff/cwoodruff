@@ -58,11 +58,11 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## ⚡ Recently active repos
 
 <!-- REPOS:START -->
-- [baseball-history-desktop](https://github.com/cwoodruff/baseball-history-desktop) — <sub>Oct 17, 2026</sub>
-- [baseball-history](https://github.com/cwoodruff/baseball-history) — Baseball History · ★ 3 — <sub>Oct 17, 2026</sub>
+- [ChinookDatabase](https://github.com/cwoodruff/ChinookDatabase) — Chinook is a sample database available for SQL Server, Oracle, MySQL, etc. It can be created by running a single SQL script. · ★ 99 — <sub>Oct 19, 2026</sub>
+- [EFCoreDemos](https://github.com/cwoodruff/EFCoreDemos) — ★ 32 — <sub>Oct 19, 2026</sub>
+- [baseball-history-desktop](https://github.com/cwoodruff/baseball-history-desktop) — <sub>Oct 19, 2026</sub>
+- [baseball-history](https://github.com/cwoodruff/baseball-history) — Baseball History · ★ 3 — <sub>Oct 19, 2026</sub>
 - [rust-api-modular-monolithic](https://github.com/cwoodruff/rust-api-modular-monolithic) — ★ 1 — <sub>Oct 17, 2026</sub>
-- [asp-claudecode](https://github.com/cwoodruff/asp-claudecode) — ★ 1 — <sub>Oct 16, 2026</sub>
-- [EFCoreDemos](https://github.com/cwoodruff/EFCoreDemos) — ★ 32 — <sub>Oct 16, 2026</sub>
 <!-- REPOS:END -->
 
 ---
@@ -75,4 +75,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Oct 18, 2026 11:22 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Oct 19, 2026 11:26 UTC<!-- STAMP:END --></sub>
