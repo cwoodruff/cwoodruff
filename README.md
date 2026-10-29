@@ -58,7 +58,7 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## ⚡ Recently active repos
 
 <!-- REPOS:START -->
-- [squad-book](https://github.com/cwoodruff/squad-book) — <sub>Oct 27, 2026</sub>
+- [squad-book](https://github.com/cwoodruff/squad-book) — <sub>Oct 28, 2026</sub>
 - [genetic-algorithms](https://github.com/cwoodruff/genetic-algorithms) — genetic algorithm in C# · ★ 5 — <sub>Oct 25, 2026</sub>
 - [baseball-history-desktop](https://github.com/cwoodruff/baseball-history-desktop) — <sub>Oct 25, 2026</sub>
 - [woodruff-dev](https://github.com/cwoodruff/woodruff-dev) — <sub>Oct 21, 2026</sub>
@@ -75,4 +75,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Oct 28, 2026 11:20 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Oct 29, 2026 11:19 UTC<!-- STAMP:END --></sub>
