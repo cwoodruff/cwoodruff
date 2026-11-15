@@ -40,7 +40,11 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## 📰 Latest from the newsletter
 
 <!-- NEWSLETTER:START -->
-*Updated automatically from [The Simplicity-First Philosophy](https://simplicityfirstphilosophy.substack.com) — run the “Update profile README” action to populate.*
+- [The Worst System I Ever Built Turned Into a Book](https://simplicityfirstphilosophy.substack.com/p/the-worst-system-i-ever-built-turned) — <sub>Nov 3, 2026</sub>
+- [Get the Degree. Write the Code](https://simplicityfirstphilosophy.substack.com/p/get-the-degree-write-the-code) — <sub>Oct 29, 2026</sub>
+- [The Startup Architecture Trap: You Are Paying for Scale in the Only Currency You Cannot Replace](https://simplicityfirstphilosophy.substack.com/p/the-startup-architecture-trap-you) — <sub>Oct 21, 2026</sub>
+- [Data Architecture and the Simplicity Problem: Why the Data Layer Accumulates Fastest and Reverses Hardest](https://simplicityfirstphilosophy.substack.com/p/data-architecture-and-the-simplicity) — <sub>Sep 18, 2026</sub>
+- [The Cost of the Platform Team: What Happens When Your Internal Product Has Customers Who Cannot Leave](https://simplicityfirstphilosophy.substack.com/p/the-cost-of-the-platform-team-what) — <sub>Sep 6, 2026</sub>
 <!-- NEWSLETTER:END -->
 
 <sub>[Subscribe →](https://simplicityfirstphilosophy.substack.com/subscribe)</sub>
@@ -75,4 +79,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Nov 14, 2026 11:18 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Nov 15, 2026 11:18 UTC<!-- STAMP:END --></sub>
