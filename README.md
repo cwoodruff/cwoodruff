@@ -62,11 +62,11 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 ## ⚡ Recently active repos
 
 <!-- REPOS:START -->
+- [dotnet-claude-workshop-content](https://github.com/cwoodruff/dotnet-claude-workshop-content) — ★ 2 — <sub>Nov 25, 2026</sub>
+- [coincraft](https://github.com/cwoodruff/coincraft) — <sub>Nov 25, 2026</sub>
 - [woodruff-dev](https://github.com/cwoodruff/woodruff-dev) — <sub>Nov 25, 2026</sub>
+- [dotnet-claude-code-kit](https://github.com/cwoodruff/dotnet-claude-code-kit) — ★ 2 — <sub>Nov 25, 2026</sub>
 - [squad-resources](https://github.com/cwoodruff/squad-resources) — ★ 5 — <sub>Nov 21, 2026</sub>
-- [squad-book](https://github.com/cwoodruff/squad-book) — ★ 4 — <sub>Nov 21, 2026</sub>
-- [web-api-hypermedia-talk](https://github.com/cwoodruff/web-api-hypermedia-talk) — <sub>Nov 14, 2026</sub>
-- [dotnet-apis-architectures](https://github.com/cwoodruff/dotnet-apis-architectures) — ★ 1 — <sub>Nov 14, 2026</sub>
 <!-- REPOS:END -->
 
 ---
@@ -79,4 +79,4 @@ My thesis is constant across all of it: **as AI writes more of the world's softw
 
 📬 [chris@woodruff.dev](mailto:chris@woodruff.dev) · 📰 [Subscribe to the newsletter](https://simplicityfirstphilosophy.substack.com) · 🥃 Bourbon enthusiast, West Michigan
 
-<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Nov 25, 2026 11:18 UTC<!-- STAMP:END --></sub>
+<sub>This README updates itself daily via [GitHub Actions](.github/workflows/update-profile.yml) — last updated: <!-- STAMP:START -->Nov 26, 2026 11:18 UTC<!-- STAMP:END --></sub>
